@@ -57,13 +57,20 @@
     </div>
     <div class="col-sm-10 typography">
       <h1 id="error-404">Error 404</h1>
-<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #569CD6">const</span><span style="color: #D4D4D4"> </span><span style="color: #4FC1FF">service</span><span style="color: #D4D4D4"> = </span><span style="color: #9CDCFE">model</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">findDataService</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">HTMLDataObject</span><span style="color: #D4D4D4">);</span></span>
-<span class="line"><span style="color: #9CDCFE">service</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">findByUID</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">request</span><span style="color: #D4D4D4">.</span><span style="color: #9CDCFE">url</span><span style="color: #D4D4D4">).</span><span style="color: #DCDCAA">then</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">page</span><span style="color: #D4D4D4"> </span><span style="color: #569CD6">=&gt;</span><span style="color: #D4D4D4"> {</span></span>
-<span class="line"><span style="color: #D4D4D4">    </span><span style="color: #9CDCFE">page</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">show</span><span style="color: #D4D4D4">();</span></span>
-<span class="line"><span style="color: #D4D4D4">}).</span><span style="color: #DCDCAA">catch</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">ex</span><span style="color: #D4D4D4"> </span><span style="color: #569CD6">=&gt;</span><span style="color: #D4D4D4"> {</span></span>
-<span class="line"><span style="color: #D4D4D4">    </span><span style="color: #9CDCFE">errorPage</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">show</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">ex</span><span style="color: #D4D4D4">);</span></span>
+<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #6A9955">// Find the data service responsible for HTML data objects</span></span>
+<span class="line"><span style="color: #569CD6">const</span><span style="color: #D4D4D4"> </span><span style="color: #4FC1FF">service</span><span style="color: #D4D4D4"> = </span><span style="color: #9CDCFE">model</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">findDataService</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">HTMLDataObject</span><span style="color: #D4D4D4">);</span></span>
+<span class="line"><span style="color: #6A9955">// Find the data object by its current position</span></span>
+<span class="line"><span style="color: #9CDCFE">service</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">findByPosition</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">request</span><span style="color: #D4D4D4">.</span><span style="color: #9CDCFE">url</span><span style="color: #D4D4D4">).</span><span style="color: #DCDCAA">then</span><span style="color: #D4D4D4">(</span><span style="color: #9CDCFE">pages</span><span style="color: #D4D4D4"> </span><span style="color: #569CD6">=&gt;</span><span style="color: #D4D4D4"> {</span></span>
+<span class="line"><span style="color: #D4D4D4">    </span><span style="color: #C586C0">if</span><span style="color: #D4D4D4"> (</span><span style="color: #9CDCFE">pages</span><span style="color: #D4D4D4">.</span><span style="color: #9CDCFE">length</span><span style="color: #D4D4D4"> === </span><span style="color: #B5CEA8">0</span><span style="color: #D4D4D4">) {</span></span>
+<span class="line"><span style="color: #D4D4D4">        </span><span style="color: #6A9955">// No objects found at the position</span></span>
+<span class="line"><span style="color: #D4D4D4">        </span><span style="color: #9CDCFE">errorPage</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">show</span><span style="color: #D4D4D4">();</span></span>
+<span class="line"><span style="color: #D4D4D4">        </span><span style="color: #C586C0">return</span><span style="color: #D4D4D4">;</span></span>
+<span class="line"><span style="color: #D4D4D4">    }</span></span>
+<span class="line"><span style="color: #D4D4D4">    </span><span style="color: #6A9955">// Show the first result, assuming the position is unique</span></span>
+<span class="line"><span style="color: #D4D4D4">    </span><span style="color: #9CDCFE">pages</span><span style="color: #D4D4D4">[</span><span style="color: #B5CEA8">0</span><span style="color: #D4D4D4">].</span><span style="color: #DCDCAA">show</span><span style="color: #D4D4D4">();</span></span>
 <span class="line"><span style="color: #D4D4D4">});</span></span></code></pre>
-<p><span style="font-size: 2em; text-align: center;">We could not find the object or page you are looking for!</span></p>
+<p><span style="font-size: 1.5em; text-align: center;">We could not track the position of the page you are looking for!</span></p>
+<p>If it moved, you should try to <code>getCurrentPosition()</code> of the page. It is also possible we deleted the page, in that case we have lots of other pages that might be of interest to you :)</p>
 
     </div>
   </div>
