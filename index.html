@@ -55,8 +55,13 @@
   <div class="visual">
     <div class="container-wrap">
       <div class="container">
+        <div class="row logos">
+          <div id="logo-vub" class="col-sm-4 jumbotron-logo"></div>
+          <div id="logo-wise" class="col-sm-4 jumbotron-logo"></div>
+          <div id="logo-openhps" class="col-sm-4 jumbotron-logo"></div>
+        </div>
         <div class="body">
-          test
+          OpenHPS - An Open Source Hybrid Positioning System
         </div>
       </div>
     </div>
@@ -65,11 +70,18 @@
 
 <div class="container main typography home">
   <p class="lead">
-OpenHPS is an open source data processing framework to help developers fuse various positioning technologies and algorithms.
+OpenHPS is an open source hybrid positioning system to help developers fuse various positioning technologies and algorithms. The system offers a modular data processing framework with each modules ranging from computervision to common algorithms such as fingerprinting or data persistence of sampled data.
 </p>
 <h2 id="quick-start">Quick Start</h2>
 <p>If you have <a href="https://www.npmjs.com/get-npm">npm installed</a>, start using @openhps/core with the following commands.</p>
-<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">npm install @openhps/core --save</span></span></code></pre>
+<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #D4D4D4">$ npm install @openhps/core --save</span></span></code></pre>
+<p>Then you can start by importing the model builder to create your first positioning model.</p>
+<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #C586C0">import</span><span style="color: #D4D4D4"> { </span><span style="color: #9CDCFE">ModelBuilder</span><span style="color: #D4D4D4"> } </span><span style="color: #C586C0">from</span><span style="color: #D4D4D4"> </span><span style="color: #CE9178">&#39;@openhps/core&#39;</span><span style="color: #D4D4D4">;</span></span>
+<span class="line"><span style="color: #9CDCFE">ModelBuilder</span><span style="color: #D4D4D4">.</span><span style="color: #DCDCAA">create</span><span style="color: #D4D4D4">()</span></span>
+<span class="line"><span style="color: #D4D4D4">    .</span><span style="color: #DCDCAA">from</span><span style="color: #D4D4D4">(</span><span style="color: #6A9955">/* ... */</span><span style="color: #D4D4D4">)</span></span>
+<span class="line"><span style="color: #D4D4D4">    .</span><span style="color: #DCDCAA">via</span><span style="color: #D4D4D4">(</span><span style="color: #6A9955">/* ... */</span><span style="color: #D4D4D4">)</span></span>
+<span class="line"><span style="color: #D4D4D4">    .</span><span style="color: #DCDCAA">to</span><span style="color: #D4D4D4">(</span><span style="color: #6A9955">/* ... */</span><span style="color: #D4D4D4">)</span></span>
+<span class="line"><span style="color: #D4D4D4">    .</span><span style="color: #DCDCAA">build</span><span style="color: #D4D4D4">();</span></span></code></pre>
 
   
   
@@ -79,8 +91,8 @@ OpenHPS is an open source data processing framework to help developers fuse vari
   <ol reversed class="postlist" style="counter-reset: start-from 2">
 
   <li class="postlist-item">
-    <a href="/posts/2020-01-06/" class="postlist-link">OpenHPS CLI Tool</a>
-    <time class="postlist-date" datetime="2020-01-06">06 Jan 2020</time>
+    <a href="/posts/2020-01-05/" class="postlist-link">OpenHPS Technical Report</a>
+    <time class="postlist-date" datetime="2020-01-05">05 Jan 2020</time>
   </li>
 
 </ol>
