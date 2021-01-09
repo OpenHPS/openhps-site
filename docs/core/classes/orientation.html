@@ -120,6 +120,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#fromarray" class="tsd-kind-icon">from<wbr>Array</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#identity" class="tsd-kind-icon">identity</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#inverse" class="tsd-kind-icon">inverse</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#invert" class="tsd-kind-icon">invert</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#length" class="tsd-kind-icon">length</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#lengthsq" class="tsd-kind-icon">length<wbr>Sq</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#multiply" class="tsd-kind-icon">multiply</a></li>
@@ -166,7 +167,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/data/position/Orientation.ts#L15">src/data/position/Orientation.ts:15</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/data/position/Orientation.ts#L15">src/data/position/Orientation.ts:15</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -211,7 +212,7 @@
 					<div class="tsd-signature tsd-kind-icon">accuracy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/data/position/Orientation.ts#L15">src/data/position/Orientation.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/data/position/Orientation.ts#L15">src/data/position/Orientation.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -233,7 +234,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#w">w</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L24">src/utils/math/Quaternion.ts:24</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L24">src/utils/math/Quaternion.ts:24</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -244,7 +245,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#x">x</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L15">src/utils/math/Quaternion.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L15">src/utils/math/Quaternion.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -255,7 +256,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#y">y</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L18">src/utils/math/Quaternion.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L18">src/utils/math/Quaternion.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -266,7 +267,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#z">z</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L21">src/utils/math/Quaternion.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L21">src/utils/math/Quaternion.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -535,6 +536,31 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#inverse">inverse</a></p>
+								<ul>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:186</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>Use {@link Quaternion#invert .invert()} instead.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Quaternion</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="invert" class="tsd-anchor"></a>
+					<h3>invert</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">invert<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Quaternion</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#invert">invert</a></p>
 								<ul>
 									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:85</li>
 								</ul>
@@ -1021,7 +1047,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#toaxisangle">toAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L130">src/utils/math/Quaternion.ts:130</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L130">src/utils/math/Quaternion.ts:130</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1045,7 +1071,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#toeuler">toEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L121">src/utils/math/Quaternion.ts:121</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L121">src/utils/math/Quaternion.ts:121</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1078,7 +1104,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#torotationmatrix">toRotationMatrix</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L139">src/utils/math/Quaternion.ts:139</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L139">src/utils/math/Quaternion.ts:139</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1101,7 +1127,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/data/position/Orientation.ts#L39">src/data/position/Orientation.ts:39</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/data/position/Orientation.ts#L39">src/data/position/Orientation.ts:39</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1127,7 +1153,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromaxisangle">fromAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L80">src/utils/math/Quaternion.ts:80</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L80">src/utils/math/Quaternion.ts:80</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1168,7 +1194,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromaxisangle">fromAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L87">src/utils/math/Quaternion.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L87">src/utils/math/Quaternion.ts:87</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1183,7 +1209,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromaxisangle">fromAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L88">src/utils/math/Quaternion.ts:88</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L88">src/utils/math/Quaternion.ts:88</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1211,7 +1237,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L47">src/utils/math/Quaternion.ts:47</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L47">src/utils/math/Quaternion.ts:47</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1235,7 +1261,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L48">src/utils/math/Quaternion.ts:48</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L48">src/utils/math/Quaternion.ts:48</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1250,7 +1276,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L49">src/utils/math/Quaternion.ts:49</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L49">src/utils/math/Quaternion.ts:49</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1279,7 +1305,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L50">src/utils/math/Quaternion.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L50">src/utils/math/Quaternion.ts:50</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1311,7 +1337,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L57">src/utils/math/Quaternion.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L57">src/utils/math/Quaternion.ts:57</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1334,7 +1360,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/data/position/Orientation.ts#L22">src/data/position/Orientation.ts:22</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/data/position/Orientation.ts#L22">src/data/position/Orientation.ts:22</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1358,7 +1384,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromrotationmatrix">fromRotationMatrix</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L109">src/utils/math/Quaternion.ts:109</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L109">src/utils/math/Quaternion.ts:109</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1391,7 +1417,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromthreejs">fromThreeJS</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/utils/math/Quaternion.ts#L32">src/utils/math/Quaternion.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/utils/math/Quaternion.ts#L32">src/utils/math/Quaternion.ts:32</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1462,7 +1488,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/127ba06/src/data/position/Orientation.ts#L26">src/data/position/Orientation.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/26d63fc/src/data/position/Orientation.ts#L26">src/data/position/Orientation.ts:26</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1642,6 +1668,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="orientation.html#inverse" class="tsd-kind-icon">inverse</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="orientation.html#invert" class="tsd-kind-icon">invert</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="orientation.html#length" class="tsd-kind-icon">length</a>

@@ -31,12 +31,14 @@
     <meta name="keywords" content="hybrid positioning system typescript javascript open source" />
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Source+Code+Pro:400,700" />
-    <link rel="stylesheet" href="/css/main.css?version=3">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="/css/main.css?version=4">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#9c0000">
 </head>
 
 
@@ -118,9 +120,12 @@
 <h3 id="browser">Browser</h3>
 <p>The minified version of our core API is available as a CommonJS UMD module.</p>
 <pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #808080">&lt;</span><span style="color: #569CD6">script</span><span style="color: #D4D4D4"> </span><span style="color: #9CDCFE">src</span><span style="color: #D4D4D4">=</span><span style="color: #CE9178">&quot;https://cdn.jsdelivr.net/npm/@openhps/core&quot;</span><span style="color: #808080">&gt;&lt;/</span><span style="color: #569CD6">script</span><span style="color: #808080">&gt;</span></span></code></pre>
+<p>You can then access the object using <code>window['@openhps/core']</code>.</p>
+<p>Alternatively, an ES6 import is supported using:</p>
+<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #C586C0">import</span><span style="color: #D4D4D4"> { </span><span style="color: #9CDCFE">ModelBuilder</span><span style="color: #D4D4D4"> } </span><span style="color: #C586C0">from</span><span style="color: #D4D4D4"> </span><span style="color: #CE9178">&#39;https://cdn.jsdelivr.net/npm/@openhps/core/dist/web/openhps-core.es.min.js&#39;</span><span style="color: #D4D4D4">;</span></span></code></pre>
 <h3 id="deno">Deno</h3>
 <p>Skypack offers the deno-compatible ESM module. External NPM dependencies are available on skypack as well, allowing a module that works for both node.js and Deno.</p>
-<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #C586C0">import</span><span style="color: #D4D4D4"> { </span><span style="color: #6A9955">/* ... */</span><span style="color: #D4D4D4"> } </span><span style="color: #C586C0">from</span><span style="color: #D4D4D4"> </span><span style="color: #CE9178">&#39;https://cdn.skypack.dev/@openhps/core?dts&#39;</span><span style="color: #D4D4D4">;</span></span></code></pre>
+<pre class="shiki" style="background-color: #1E1E1E"><code><span class="line"><span style="color: #C586C0">import</span><span style="color: #D4D4D4"> { </span><span style="color: #9CDCFE">ModelBuilder</span><span style="color: #D4D4D4"> } </span><span style="color: #C586C0">from</span><span style="color: #D4D4D4"> </span><span style="color: #CE9178">&#39;https://cdn.skypack.dev/@openhps/core?dts&#39;</span><span style="color: #D4D4D4">;</span></span></code></pre>
 
     </div>
     <div class="col-sm-3 toc-container">
