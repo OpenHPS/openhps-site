@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SocketServerSink | @openhps/socket - v0.1.0-alpha.2</title>
+	<title>SocketServerSink | @openhps/socket - v0.1.0-alpha.3</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">@openhps/socket - v0.1.0-alpha.2</a>
+					<a href="../index.html" class="title">@openhps/socket - v0.1.0-alpha.3</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -167,7 +167,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides SinkNode.__constructor</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/baa82e0/src/server/nodes/sink/SocketServerSink.ts#L8">src/server/nodes/sink/SocketServerSink.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/nodes/sink/SocketServerSink.ts#L8">src/server/nodes/sink/SocketServerSink.ts:8</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -190,7 +190,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Node.graph</p>
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:23</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:37</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -206,7 +206,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Node.name</p>
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:19</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:33</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -223,7 +223,7 @@
 						<p>Inherited from SinkNode.options</p>
 						<p>Overrides Node.options</p>
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/SinkNode.d.ts:8</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/SinkNode.d.ts:29</li>
 						</ul>
 					</aside>
 				</section>
@@ -234,7 +234,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from Node.uid</p>
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:15</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:29</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -250,14 +250,14 @@
 					<a name="inlets" class="tsd-anchor"></a>
 					<h3>inlets</h3>
 					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> inlets<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Edge</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> inlets<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Inlet</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from Node.inlets</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:62</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:76</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -265,7 +265,7 @@
 									<p>Get the incoming edges</p>
 								</div>
 							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Edge</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Inlet</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>Incoming edges</p>
 						</li>
 					</ul>
@@ -281,7 +281,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Node.model</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:36</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:50</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -298,14 +298,14 @@
 					<a name="outlets" class="tsd-anchor"></a>
 					<h3>outlets</h3>
 					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> outlets<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Edge</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> outlets<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Outlet</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from Node.outlets</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:56</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:70</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -313,7 +313,7 @@
 									<p>Get the outgoing edges</p>
 								</div>
 							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Edge</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Outlet</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>Outgoing edges</p>
 						</li>
 					</ul>
@@ -373,7 +373,7 @@
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"available"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"completed"</span>, e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushCompletedEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"error"</span>, e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushErrorEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"error"</span>, e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"ready"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"destroy"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
@@ -383,7 +383,7 @@
 								<p>Inherited from Node.emit</p>
 								<p>Overrides EventEmitter.emit</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:63</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:77</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -402,7 +402,7 @@
 								<p>Inherited from Node.emit</p>
 								<p>Overrides EventEmitter.emit</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:69</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:83</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -426,7 +426,7 @@
 								<p>Inherited from Node.emit</p>
 								<p>Overrides EventEmitter.emit</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:75</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:89</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -453,7 +453,7 @@
 								<p>Inherited from Node.emit</p>
 								<p>Overrides EventEmitter.emit</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:81</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:95</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -470,7 +470,7 @@
 									</div>
 								</li>
 								<li>
-									<h5>e: <span class="tsd-signature-type">PushErrorEvent</span></h5>
+									<h5>e: <span class="tsd-signature-type">PushError</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -480,7 +480,7 @@
 								<p>Inherited from Node.emit</p>
 								<p>Overrides EventEmitter.emit</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:87</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:101</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -504,7 +504,7 @@
 								<p>Inherited from Node.emit</p>
 								<p>Overrides EventEmitter.emit</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:93</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:107</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -599,7 +599,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Node.isAvailable</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:43</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:57</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -623,7 +623,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Node.isReady</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:37</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:51</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -689,7 +689,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Node.logger</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:50</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:64</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -778,7 +778,7 @@
 								<p>Inherited from Node.on</p>
 								<p>Overrides EventEmitter.on</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:94</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:108</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -815,7 +815,7 @@
 								<p>Inherited from Node.on</p>
 								<p>Overrides EventEmitter.on</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:101</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:115</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -860,7 +860,7 @@
 								<p>Inherited from Node.on</p>
 								<p>Overrides EventEmitter.on</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:108</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:122</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -911,7 +911,7 @@
 								<p>Inherited from Node.on</p>
 								<p>Overrides EventEmitter.on</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:115</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:129</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -935,14 +935,14 @@
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-siganture">
 											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
-												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushErrorEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></li>
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></li>
 											</ul>
 											<ul class="tsd-descriptions">
 												<li class="tsd-description">
 													<h4 class="tsd-parameters-title">Parameters</h4>
 													<ul class="tsd-parameters">
 														<li>
-															<h5>event: <span class="tsd-signature-type">PushErrorEvent</span></h5>
+															<h5>event: <span class="tsd-signature-type">PushError</span></h5>
 														</li>
 													</ul>
 													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span>
@@ -962,7 +962,7 @@
 								<p>Inherited from Node.on</p>
 								<p>Overrides EventEmitter.on</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:122</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:136</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1013,7 +1013,7 @@
 								<p>Inherited from Node.on</p>
 								<p>Overrides EventEmitter.on</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:129</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:143</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1075,7 +1075,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides SinkNode.onPush</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/baa82e0/src/server/nodes/sink/SocketServerSink.ts#L25">src/server/nodes/sink/SocketServerSink.ts:25</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/nodes/sink/SocketServerSink.ts#L25">src/server/nodes/sink/SocketServerSink.ts:25</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1108,7 +1108,7 @@
 								<p>Inherited from Node.once</p>
 								<p>Overrides EventEmitter.once</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:130</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:144</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1145,7 +1145,7 @@
 								<p>Inherited from Node.once</p>
 								<p>Overrides EventEmitter.once</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:137</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:151</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1190,7 +1190,7 @@
 								<p>Inherited from Node.once</p>
 								<p>Overrides EventEmitter.once</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:144</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:158</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1241,7 +1241,7 @@
 								<p>Inherited from Node.once</p>
 								<p>Overrides EventEmitter.once</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:151</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:165</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1286,7 +1286,7 @@
 								<p>Inherited from Node.once</p>
 								<p>Overrides EventEmitter.once</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:158</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:172</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1337,7 +1337,7 @@
 								<p>Inherited from Node.once</p>
 								<p>Overrides EventEmitter.once</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:165</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:179</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1390,7 +1390,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Node.onceAvailable</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:186</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:200</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1414,7 +1414,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Node.onceCompleted</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:193</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:207</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1447,7 +1447,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from SinkNode.persistDataObject</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/SinkNode.d.ts:11</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/SinkNode.d.ts:32</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1561,7 +1561,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Node.pull</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:172</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:186</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1592,7 +1592,7 @@
 								<p>Inherited from SinkNode.push</p>
 								<p>Overrides Node.push</p>
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/SinkNode.d.ts:10</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/SinkNode.d.ts:31</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1761,9 +1761,6 @@
 						<a href="../modules/_client_service_socketclient_.html">&quot;client/service/<wbr>Socket<wbr>Client&quot;</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_client_service_socketclientservice_.html">&quot;client/service/<wbr>Socket<wbr>Client<wbr>Service&quot;</a>
-					</li>
-					<li class=" tsd-kind-external-module">
 						<a href="../modules/_client_service_index_.html">&quot;client/service/index&quot;</a>
 					</li>
 					<li class=" tsd-kind-external-module">
@@ -1801,9 +1798,6 @@
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/_server_service_socketserver_.html">&quot;server/service/<wbr>Socket<wbr>Server&quot;</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="../modules/_server_service_socketserverservice_.html">&quot;server/service/<wbr>Socket<wbr>Server<wbr>Service&quot;</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/_server_service_index_.html">&quot;server/service/index&quot;</a>
