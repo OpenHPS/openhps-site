@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>TriangulationNode | @openhps/trigonometry</title>
-	<meta name="description" content="Documentation for @openhps/trigonometry">
+	<title>GeomagneticOrientationProcessingNode | @openhps/imu</title>
+	<meta name="description" content="Documentation for @openhps/imu">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<script async src="../assets/js/search.js" id="search-script"></script>
@@ -23,7 +23,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">@openhps/trigonometry</a>
+					<a href="../index.html" class="title">@openhps/imu</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -52,13 +52,13 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../modules.html">@openhps/trigonometry</a>
+					<a href="../modules.html">@openhps/imu</a>
 				</li>
 				<li>
-					<a href="triangulationnode.html">TriangulationNode</a>
+					<a href="geomagneticorientationprocessingnode.html">GeomagneticOrientationProcessingNode</a>
 				</li>
 			</ul>
-			<h1>Class TriangulationNode&lt;InOut&gt;</h1>
+			<h1>Class GeomagneticOrientationProcessingNode</h1>
 		</div>
 	</div>
 </header>
@@ -68,32 +68,23 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Triangulation processing node
-						Supported position types:</p>
-						<ul>
-							<li>[[Absolute2DPosition]]</li>
-							<li>[[Absolute3DPosition]]</li>
-							<li>[[GeographicalPosition]]</li>
-						</ul>
+						<p>Geomagnetic orientation processing node</p>
 					</div>
+					<dl class="tsd-comment-tags">
+						<dt>see</dt>
+						<dd><p><a href="https://github.com/visakhanc/eCompass/blob/master/source/main.c" class="external">https://github.com/visakhanc/eCompass/blob/master/source/main.c</a></p>
+						</dd>
+					</dl>
 				</div>
-			</section>
-			<section class="tsd-panel tsd-type-parameters">
-				<h3>Type parameters</h3>
-				<ul class="tsd-type-parameters">
-					<li>
-						<h4>InOut<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataFrame</span></h4>
-					</li>
-				</ul>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="tsd-signature-type">RelativePositionProcessing</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RelativeAnglePosition</span><span class="tsd-signature-symbol">&gt;</span>
+						<span class="tsd-signature-type">FilterProcessingNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">&gt;</span>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">TriangulationNode</span>
+								<span class="target">GeomagneticOrientationProcessingNode</span>
 							</li>
 						</ul>
 					</li>
@@ -106,62 +97,62 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter"><a href="triangulationnode.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="geomagneticorientationprocessingnode.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#graph" class="tsd-kind-icon">graph</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#name" class="tsd-kind-icon">name</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="triangulationnode.html#options" class="tsd-kind-icon">options</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#uid" class="tsd-kind-icon">uid</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external"><a href="triangulationnode.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#graph" class="tsd-kind-icon">graph</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#name" class="tsd-kind-icon">name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="geomagneticorientationprocessingnode.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#uid" class="tsd-kind-icon">uid</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external"><a href="geomagneticorientationprocessingnode.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Accessors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#inlets" class="tsd-kind-icon">inlets</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#model" class="tsd-kind-icon">model</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#outlets" class="tsd-kind-icon">outlets</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#inlets" class="tsd-kind-icon">inlets</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#model" class="tsd-kind-icon">model</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#outlets" class="tsd-kind-icon">outlets</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#addlistener" class="tsd-kind-icon">add<wbr>Listener</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#emit" class="tsd-kind-icon">emit</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#emitasync" class="tsd-kind-icon">emit<wbr>Async</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#eventnames" class="tsd-kind-icon">event<wbr>Names</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="triangulationnode.html#findnodedataservice" class="tsd-kind-icon">find<wbr>Node<wbr>Data<wbr>Service</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="triangulationnode.html#findobjectbyuid" class="tsd-kind-icon">find<wbr>Object<wbr>ByUID</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#getmaxlisteners" class="tsd-kind-icon">get<wbr>Max<wbr>Listeners</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="triangulationnode.html#getnodedata" class="tsd-kind-icon">get<wbr>Node<wbr>Data</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#isavailable" class="tsd-kind-icon">is<wbr>Available</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#isready" class="tsd-kind-icon">is<wbr>Ready</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#listenercount" class="tsd-kind-icon">listener<wbr>Count</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#listeners" class="tsd-kind-icon">listeners</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#logger" class="tsd-kind-icon">logger</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#off" class="tsd-kind-icon">off</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#on" class="tsd-kind-icon">on</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#once" class="tsd-kind-icon">once</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#onceavailable" class="tsd-kind-icon">once<wbr>Available</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#oncecompleted" class="tsd-kind-icon">once<wbr>Completed</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#prependlistener" class="tsd-kind-icon">prepend<wbr>Listener</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#prependoncelistener" class="tsd-kind-icon">prepend<wbr>Once<wbr>Listener</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#process" class="tsd-kind-icon">process</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#processobject" class="tsd-kind-icon">process<wbr>Object</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter"><a href="triangulationnode.html#processrelativepositions" class="tsd-kind-icon">process<wbr>Relative<wbr>Positions</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#pull" class="tsd-kind-icon">pull</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#push" class="tsd-kind-icon">push</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#rawlisteners" class="tsd-kind-icon">raw<wbr>Listeners</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#removealllisteners" class="tsd-kind-icon">remove<wbr>All<wbr>Listeners</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="triangulationnode.html#setmaxlisteners" class="tsd-kind-icon">set<wbr>Max<wbr>Listeners</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="triangulationnode.html#setnodedata" class="tsd-kind-icon">set<wbr>Node<wbr>Data</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected"><a href="triangulationnode.html#triangulate" class="tsd-kind-icon">triangulate</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static tsd-is-external"><a href="triangulationnode.html#listenercount-1" class="tsd-kind-icon">listener<wbr>Count</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#addlistener" class="tsd-kind-icon">add<wbr>Listener</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#emit" class="tsd-kind-icon">emit</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#emitasync" class="tsd-kind-icon">emit<wbr>Async</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#eventnames" class="tsd-kind-icon">event<wbr>Names</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="geomagneticorientationprocessingnode.html#filter" class="tsd-kind-icon">filter</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="geomagneticorientationprocessingnode.html#findnodedataservice" class="tsd-kind-icon">find<wbr>Node<wbr>Data<wbr>Service</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="geomagneticorientationprocessingnode.html#findobjectbyuid" class="tsd-kind-icon">find<wbr>Object<wbr>ByUID</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#getmaxlisteners" class="tsd-kind-icon">get<wbr>Max<wbr>Listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="geomagneticorientationprocessingnode.html#getnodedata" class="tsd-kind-icon">get<wbr>Node<wbr>Data</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="geomagneticorientationprocessingnode.html#initfilter" class="tsd-kind-icon">init<wbr>Filter</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#isavailable" class="tsd-kind-icon">is<wbr>Available</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#isready" class="tsd-kind-icon">is<wbr>Ready</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#listenercount" class="tsd-kind-icon">listener<wbr>Count</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#listeners" class="tsd-kind-icon">listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#logger" class="tsd-kind-icon">logger</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#off" class="tsd-kind-icon">off</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#on" class="tsd-kind-icon">on</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#once" class="tsd-kind-icon">once</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#onceavailable" class="tsd-kind-icon">once<wbr>Available</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#oncecompleted" class="tsd-kind-icon">once<wbr>Completed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#prependlistener" class="tsd-kind-icon">prepend<wbr>Listener</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#prependoncelistener" class="tsd-kind-icon">prepend<wbr>Once<wbr>Listener</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#process" class="tsd-kind-icon">process</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#processobject" class="tsd-kind-icon">process<wbr>Object</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#pull" class="tsd-kind-icon">pull</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#push" class="tsd-kind-icon">push</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#rawlisteners" class="tsd-kind-icon">raw<wbr>Listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#removealllisteners" class="tsd-kind-icon">remove<wbr>All<wbr>Listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="geomagneticorientationprocessingnode.html#setmaxlisteners" class="tsd-kind-icon">set<wbr>Max<wbr>Listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="geomagneticorientationprocessingnode.html#setnodedata" class="tsd-kind-icon">set<wbr>Node<wbr>Data</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static tsd-is-external"><a href="geomagneticorientationprocessingnode.html#listenercount-1" class="tsd-kind-icon">listener<wbr>Count</a></li>
 							</ul>
 						</section>
 					</div>
@@ -169,32 +160,26 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Triangulation<wbr>Node&lt;InOut&gt;<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ObjectProcessingNodeOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Geomagnetic<wbr>Orientation<wbr>Processing<wbr>Node<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">FilterProcessingOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-trigonometry/blob/5750e07/src/nodes/TriangulationNode.ts#L27">src/nodes/TriangulationNode.ts:27</a></li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/processing/dsp/FilterProcessingNode.d.ts:7</li>
 								</ul>
 							</aside>
-							<h4 class="tsd-type-parameters-title">Type parameters</h4>
-							<ul class="tsd-type-parameters">
-								<li>
-									<h4>InOut<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataFrame</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
-								</li>
-							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">ObjectProcessingNodeOptions</span></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">FilterProcessingOptions</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -234,10 +219,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected tsd-is-external">
 					<a name="options" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> options</h3>
-					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ObjectProcessingNodeOptions</span></div>
+					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">FilterProcessingOptions</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/ObjectProcessingNode.d.ts:29</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/processing/dsp/FilterProcessingNode.d.ts:7</li>
 						</ul>
 					</aside>
 				</section>
@@ -345,7 +330,7 @@
 					<a name="addlistener" class="tsd-anchor"></a>
 					<h3>add<wbr>Listener</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">add<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -381,7 +366,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -575,6 +560,32 @@
 						</li>
 					</ul>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filter" class="tsd-anchor"></a>
+					<h3>filter</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<span class="tsd-signature-symbol">(</span>object<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataObject</span>, frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-imu/blob/0829053/src/nodes/processing/GeomagneticOrientationProcessingNode.ts#L24">src/nodes/processing/GeomagneticOrientationProcessingNode.ts:24</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>object: <span class="tsd-signature-type">DataObject</span></h5>
+								</li>
+								<li>
+									<h5>frame: <span class="tsd-signature-type">IMUDataFrame</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
 					<a name="findnodedataservice" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> find<wbr>Node<wbr>Data<wbr>Service</h3>
@@ -596,7 +607,7 @@
 					<a name="findobjectbyuid" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> find<wbr>Object<wbr>ByUID</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">find<wbr>Object<wbr>ByUID<span class="tsd-signature-symbol">(</span>uid<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, dataFrame<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">InOut</span>, type<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Object<wbr>ByUID<span class="tsd-signature-symbol">(</span>uid<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, dataFrame<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">IMUDataFrame</span>, type<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -619,7 +630,7 @@
 									</div>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> dataFrame: <span class="tsd-signature-type">InOut</span></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> dataFrame: <span class="tsd-signature-type">IMUDataFrame</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Optional data frame to look in</p>
 									</div>
@@ -682,6 +693,32 @@
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>Promise with node data</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="initfilter" class="tsd-anchor"></a>
+					<h3>init<wbr>Filter</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">init<wbr>Filter<span class="tsd-signature-symbol">(</span>object<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataObject</span>, frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-imu/blob/0829053/src/nodes/processing/GeomagneticOrientationProcessingNode.ts#L10">src/nodes/processing/GeomagneticOrientationProcessingNode.ts:10</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>object: <span class="tsd-signature-type">DataObject</span></h5>
+								</li>
+								<li>
+									<h5>frame: <span class="tsd-signature-type">IMUDataFrame</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -812,7 +849,7 @@
 					<a name="off" class="tsd-anchor"></a>
 					<h3>off</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">off<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">off<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -848,7 +885,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -856,12 +893,12 @@
 					<a name="on" class="tsd-anchor"></a>
 					<h3>on</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushCompletedEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;error&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;pull&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PullOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;push&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">InOut</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushCompletedEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;error&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;pull&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PullOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;push&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -897,7 +934,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -937,7 +974,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -983,7 +1020,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1029,7 +1066,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1075,7 +1112,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1097,21 +1134,21 @@
 									</div>
 								</li>
 								<li>
-									<h5>listener: <span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">InOut</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>listener: <span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Event callback</p>
 									</div>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-signature">
 											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-external">
-												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">InOut</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 											</ul>
 											<ul class="tsd-descriptions">
 												<li class="tsd-description">
 													<h4 class="tsd-parameters-title">Parameters</h4>
 													<ul class="tsd-parameters">
 														<li>
-															<h5>frame: <span class="tsd-signature-type">InOut</span></h5>
+															<h5>frame: <span class="tsd-signature-type">IMUDataFrame</span></h5>
 														</li>
 														<li>
 															<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">PushOptions</span></h5>
@@ -1124,7 +1161,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -1132,12 +1169,12 @@
 					<a name="once" class="tsd-anchor"></a>
 					<h3>once</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushCompletedEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;destroy&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;build&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GraphBuilder</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataFrame</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DataFrame</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;ready&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushCompletedEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;destroy&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;build&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GraphBuilder</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataFrame</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DataFrame</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;ready&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1173,7 +1210,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1213,7 +1250,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1259,7 +1296,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1299,7 +1336,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1345,7 +1382,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
@@ -1385,7 +1422,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -1448,7 +1485,7 @@
 					<a name="prependlistener" class="tsd-anchor"></a>
 					<h3>prepend<wbr>Listener</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">prepend<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">prepend<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1484,7 +1521,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -1492,7 +1529,7 @@
 					<a name="prependoncelistener" class="tsd-anchor"></a>
 					<h3>prepend<wbr>Once<wbr>Listener</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">prepend<wbr>Once<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">prepend<wbr>Once<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1528,7 +1565,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -1536,7 +1573,7 @@
 					<a name="process" class="tsd-anchor"></a>
 					<h3>process</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">process<span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">InOut</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">GraphOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">process<span class="tsd-signature-symbol">(</span>frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">GraphOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1548,13 +1585,13 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>frame: <span class="tsd-signature-type">InOut</span></h5>
+									<h5>frame: <span class="tsd-signature-type">IMUDataFrame</span></h5>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">GraphOptions</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1562,54 +1599,22 @@
 					<a name="processobject" class="tsd-anchor"></a>
 					<h3>process<wbr>Object</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">process<wbr>Object<span class="tsd-signature-symbol">(</span>dataObject<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataObject</span>, dataFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">process<wbr>Object<span class="tsd-signature-symbol">(</span>object<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataObject</span>, frame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/processing/RelativePositionProcessing.d.ts:9</li>
+									<li>Defined in node_modules/@openhps/core/dist/cjs/nodes/processing/dsp/FilterProcessingNode.d.ts:9</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>dataObject: <span class="tsd-signature-type">DataObject</span></h5>
+									<h5>object: <span class="tsd-signature-type">DataObject</span></h5>
 								</li>
 								<li>
-									<h5>dataFrame: <span class="tsd-signature-type">InOut</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
-					<a name="processrelativepositions" class="tsd-anchor"></a>
-					<h3>process<wbr>Relative<wbr>Positions</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">process<wbr>Relative<wbr>Positions&lt;P&gt;<span class="tsd-signature-symbol">(</span>dataObject<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DataObject</span>, relativePositions<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">RelativeAnglePosition</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-trigonometry/blob/5750e07/src/nodes/TriangulationNode.ts#L32">src/nodes/TriangulationNode.ts:32</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-type-parameters-title">Type parameters</h4>
-							<ul class="tsd-type-parameters">
-								<li>
-									<h4>P<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Absolute2DPosition</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Absolute3DPosition</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">GeographicalPosition</span></h4>
-								</li>
-							</ul>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>dataObject: <span class="tsd-signature-type">DataObject</span></h5>
-								</li>
-								<li>
-									<h5>relativePositions: <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">RelativeAnglePosition</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>frame: <span class="tsd-signature-type">IMUDataFrame</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataObject</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1649,7 +1654,7 @@
 					<a name="push" class="tsd-anchor"></a>
 					<h3>push</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">push<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">push<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">PushOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1666,7 +1671,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>data: <span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>data: <span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">IMUDataFrame</span><span class="tsd-signature-symbol">[]</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Data frame to push</p>
 									</div>
@@ -1707,7 +1712,7 @@
 					<a name="removealllisteners" class="tsd-anchor"></a>
 					<h3>remove<wbr>All<wbr>Listeners</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">remove<wbr>All<wbr>Listeners<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>All<wbr>Listeners<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1722,7 +1727,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> event: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -1730,7 +1735,7 @@
 					<a name="removelistener" class="tsd-anchor"></a>
 					<h3>remove<wbr>Listener</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">remove<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>Listener<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1766,7 +1771,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -1774,7 +1779,7 @@
 					<a name="setmaxlisteners" class="tsd-anchor"></a>
 					<h3>set<wbr>Max<wbr>Listeners</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">set<wbr>Max<wbr>Listeners<span class="tsd-signature-symbol">(</span>n<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Max<wbr>Listeners<span class="tsd-signature-symbol">(</span>n<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1789,7 +1794,7 @@
 									<h5>n: <span class="tsd-signature-type">number</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="triangulationnode.html" class="tsd-signature-type" data-tsd-kind="Class">TriangulationNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="geomagneticorientationprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GeomagneticOrientationProcessingNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -1828,55 +1833,6 @@
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">NodeData</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>Promise with stored node data</p>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
-					<a name="triangulate" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> triangulate</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">triangulate&lt;P&gt;<span class="tsd-signature-symbol">(</span>points<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">P</span><span class="tsd-signature-symbol">[]</span>, angles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">P</span><span class="tsd-signature-symbol">&gt;</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-trigonometry/blob/5750e07/src/nodes/TriangulationNode.ts#L77">src/nodes/TriangulationNode.ts:77</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Triangulate a absolute 3d location</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>see</dt>
-									<dd><p><a href="https://ieeexplore.ieee.org/document/6693716?tp=&arnumber=6693716" class="external">https://ieeexplore.ieee.org/document/6693716?tp=&amp;arnumber=6693716</a></p>
-									</dd>
-								</dl>
-							</div>
-							<h4 class="tsd-type-parameters-title">Type parameters</h4>
-							<ul class="tsd-type-parameters">
-								<li>
-									<h4>P<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AbsolutePosition</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">P</span><span class="tsd-signature-symbol">&gt;</span></h4>
-								</li>
-							</ul>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>points: <span class="tsd-signature-type">P</span><span class="tsd-signature-symbol">[]</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Points to triangulate</p>
-									</div>
-								</li>
-								<li>
-									<h5>angles: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Angles</p>
-									</div>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">P</span><span class="tsd-signature-symbol">&gt;</span></h4>
-							<p>Promise for the triangulated absolute position</p>
 						</li>
 					</ul>
 				</section>
@@ -1925,143 +1881,179 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="multilaterationnode.html" class="tsd-kind-icon">Multilateration<wbr>Node</a>
+					<li class=" tsd-kind-enum">
+						<a href="../enums/gravityprocessingmethod.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Method</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="accelerationprocessingnode.html" class="tsd-kind-icon">Acceleration<wbr>Processing<wbr>Node</a>
 					</li>
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-class tsd-has-type-parameter">
-						<a href="triangulationnode.html" class="tsd-kind-icon">Triangulation<wbr>Node</a>
+					<li class="current tsd-kind-class">
+						<a href="geomagneticorientationprocessingnode.html" class="tsd-kind-icon">Geomagnetic<wbr>Orientation<wbr>Processing<wbr>Node</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
-								<a href="triangulationnode.html#constructor" class="tsd-kind-icon">constructor</a>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="geomagneticorientationprocessingnode.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#graph" class="tsd-kind-icon">graph</a>
+								<a href="geomagneticorientationprocessingnode.html#graph" class="tsd-kind-icon">graph</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#name" class="tsd-kind-icon">name</a>
+								<a href="geomagneticorientationprocessingnode.html#name" class="tsd-kind-icon">name</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="triangulationnode.html#options" class="tsd-kind-icon">options</a>
+								<a href="geomagneticorientationprocessingnode.html#options" class="tsd-kind-icon">options</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#uid" class="tsd-kind-icon">uid</a>
+								<a href="geomagneticorientationprocessingnode.html#uid" class="tsd-kind-icon">uid</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
-								<a href="triangulationnode.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a>
+								<a href="geomagneticorientationprocessingnode.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#inlets" class="tsd-kind-icon">inlets</a>
+								<a href="geomagneticorientationprocessingnode.html#inlets" class="tsd-kind-icon">inlets</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#model" class="tsd-kind-icon">model</a>
+								<a href="geomagneticorientationprocessingnode.html#model" class="tsd-kind-icon">model</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#outlets" class="tsd-kind-icon">outlets</a>
+								<a href="geomagneticorientationprocessingnode.html#outlets" class="tsd-kind-icon">outlets</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#addlistener" class="tsd-kind-icon">add<wbr>Listener</a>
+								<a href="geomagneticorientationprocessingnode.html#addlistener" class="tsd-kind-icon">add<wbr>Listener</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#emit" class="tsd-kind-icon">emit</a>
+								<a href="geomagneticorientationprocessingnode.html#emit" class="tsd-kind-icon">emit</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#emitasync" class="tsd-kind-icon">emit<wbr>Async</a>
+								<a href="geomagneticorientationprocessingnode.html#emitasync" class="tsd-kind-icon">emit<wbr>Async</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#eventnames" class="tsd-kind-icon">event<wbr>Names</a>
+								<a href="geomagneticorientationprocessingnode.html#eventnames" class="tsd-kind-icon">event<wbr>Names</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="geomagneticorientationprocessingnode.html#filter" class="tsd-kind-icon">filter</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="triangulationnode.html#findnodedataservice" class="tsd-kind-icon">find<wbr>Node<wbr>Data<wbr>Service</a>
+								<a href="geomagneticorientationprocessingnode.html#findnodedataservice" class="tsd-kind-icon">find<wbr>Node<wbr>Data<wbr>Service</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="triangulationnode.html#findobjectbyuid" class="tsd-kind-icon">find<wbr>Object<wbr>ByUID</a>
+								<a href="geomagneticorientationprocessingnode.html#findobjectbyuid" class="tsd-kind-icon">find<wbr>Object<wbr>ByUID</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#getmaxlisteners" class="tsd-kind-icon">get<wbr>Max<wbr>Listeners</a>
+								<a href="geomagneticorientationprocessingnode.html#getmaxlisteners" class="tsd-kind-icon">get<wbr>Max<wbr>Listeners</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="triangulationnode.html#getnodedata" class="tsd-kind-icon">get<wbr>Node<wbr>Data</a>
+								<a href="geomagneticorientationprocessingnode.html#getnodedata" class="tsd-kind-icon">get<wbr>Node<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="geomagneticorientationprocessingnode.html#initfilter" class="tsd-kind-icon">init<wbr>Filter</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#isavailable" class="tsd-kind-icon">is<wbr>Available</a>
+								<a href="geomagneticorientationprocessingnode.html#isavailable" class="tsd-kind-icon">is<wbr>Available</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#isready" class="tsd-kind-icon">is<wbr>Ready</a>
+								<a href="geomagneticorientationprocessingnode.html#isready" class="tsd-kind-icon">is<wbr>Ready</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#listenercount" class="tsd-kind-icon">listener<wbr>Count</a>
+								<a href="geomagneticorientationprocessingnode.html#listenercount" class="tsd-kind-icon">listener<wbr>Count</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#listeners" class="tsd-kind-icon">listeners</a>
+								<a href="geomagneticorientationprocessingnode.html#listeners" class="tsd-kind-icon">listeners</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#logger" class="tsd-kind-icon">logger</a>
+								<a href="geomagneticorientationprocessingnode.html#logger" class="tsd-kind-icon">logger</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#off" class="tsd-kind-icon">off</a>
+								<a href="geomagneticorientationprocessingnode.html#off" class="tsd-kind-icon">off</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#on" class="tsd-kind-icon">on</a>
+								<a href="geomagneticorientationprocessingnode.html#on" class="tsd-kind-icon">on</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#once" class="tsd-kind-icon">once</a>
+								<a href="geomagneticorientationprocessingnode.html#once" class="tsd-kind-icon">once</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#onceavailable" class="tsd-kind-icon">once<wbr>Available</a>
+								<a href="geomagneticorientationprocessingnode.html#onceavailable" class="tsd-kind-icon">once<wbr>Available</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#oncecompleted" class="tsd-kind-icon">once<wbr>Completed</a>
+								<a href="geomagneticorientationprocessingnode.html#oncecompleted" class="tsd-kind-icon">once<wbr>Completed</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#prependlistener" class="tsd-kind-icon">prepend<wbr>Listener</a>
+								<a href="geomagneticorientationprocessingnode.html#prependlistener" class="tsd-kind-icon">prepend<wbr>Listener</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#prependoncelistener" class="tsd-kind-icon">prepend<wbr>Once<wbr>Listener</a>
+								<a href="geomagneticorientationprocessingnode.html#prependoncelistener" class="tsd-kind-icon">prepend<wbr>Once<wbr>Listener</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#process" class="tsd-kind-icon">process</a>
+								<a href="geomagneticorientationprocessingnode.html#process" class="tsd-kind-icon">process</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#processobject" class="tsd-kind-icon">process<wbr>Object</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
-								<a href="triangulationnode.html#processrelativepositions" class="tsd-kind-icon">process<wbr>Relative<wbr>Positions</a>
+								<a href="geomagneticorientationprocessingnode.html#processobject" class="tsd-kind-icon">process<wbr>Object</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#pull" class="tsd-kind-icon">pull</a>
+								<a href="geomagneticorientationprocessingnode.html#pull" class="tsd-kind-icon">pull</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#push" class="tsd-kind-icon">push</a>
+								<a href="geomagneticorientationprocessingnode.html#push" class="tsd-kind-icon">push</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#rawlisteners" class="tsd-kind-icon">raw<wbr>Listeners</a>
+								<a href="geomagneticorientationprocessingnode.html#rawlisteners" class="tsd-kind-icon">raw<wbr>Listeners</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#removealllisteners" class="tsd-kind-icon">remove<wbr>All<wbr>Listeners</a>
+								<a href="geomagneticorientationprocessingnode.html#removealllisteners" class="tsd-kind-icon">remove<wbr>All<wbr>Listeners</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a>
+								<a href="geomagneticorientationprocessingnode.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="triangulationnode.html#setmaxlisteners" class="tsd-kind-icon">set<wbr>Max<wbr>Listeners</a>
+								<a href="geomagneticorientationprocessingnode.html#setmaxlisteners" class="tsd-kind-icon">set<wbr>Max<wbr>Listeners</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="triangulationnode.html#setnodedata" class="tsd-kind-icon">set<wbr>Node<wbr>Data</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
-								<a href="triangulationnode.html#triangulate" class="tsd-kind-icon">triangulate</a>
+								<a href="geomagneticorientationprocessingnode.html#setnodedata" class="tsd-kind-icon">set<wbr>Node<wbr>Data</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static tsd-is-external">
-								<a href="triangulationnode.html#listenercount-1" class="tsd-kind-icon">listener<wbr>Count</a>
+								<a href="geomagneticorientationprocessingnode.html#listenercount-1" class="tsd-kind-icon">listener<wbr>Count</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-class">
+						<a href="gravityprocessingnode.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="imubrowsersource.html" class="tsd-kind-icon">IMUBrowser<wbr>Source</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="imudataframe.html" class="tsd-kind-icon">IMUData<wbr>Frame</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="magnetometercalibrationnode.html" class="tsd-kind-icon">Magnetometer<wbr>Calibration<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="pedometerdata.html" class="tsd-kind-icon">Pedometer<wbr>Data</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="pedometerprocessingnode.html" class="tsd-kind-icon">Pedometer<wbr>Processing<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="relativerotationprocessingnode.html" class="tsd-kind-icon">Relative<wbr>Rotation<wbr>Processing<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
+						<a href="velocitycalculationnode.html" class="tsd-kind-icon">Velocity<wbr>Calculation<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
+						<a href="velocityprocessingnode.html" class="tsd-kind-icon">Velocity<wbr>Processing<wbr>Node</a>
+					</li>
 					<li class=" tsd-kind-interface">
-						<a href="../interfaces/multilaterationoptions.html" class="tsd-kind-icon">Multilateration<wbr>Options</a>
+						<a href="../interfaces/gravityprocessingoptions.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/magnetomercalibrationoptions.html" class="tsd-kind-icon">Magnetomer<wbr>Calibration<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/pedometeroptions.html" class="tsd-kind-icon">Pedometer<wbr>Options</a>
 					</li>
 				</ul>
 			</nav>
@@ -2073,11 +2065,15 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
 			</ul>
 		</div>
 	</div>

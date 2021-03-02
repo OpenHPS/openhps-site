@@ -100,9 +100,16 @@
 					<h3>Positioning Algorithms</h3>
 				</a>
 				<ul>
-					<li><strong><a href="https://github.com/OpenHPS/openhps-trigonometry">@openhps/trigonometry</a></strong> - Adds trigonometry algorithms such as multilateration, trilateration and triangulation.</li>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-imu">@openhps/imu</a></strong> - Adds IMU processing nodes for fusing IMU sensors.</li>
 					<li><strong><a href="https://github.com/OpenHPS/openhps-fingerprinting">@openhps/fingerprinting</a></strong> - Adds various fingerprinting nodes and services for offline and offline positioning models.</li>
 					<li><strong><a href="https://github.com/OpenHPS/openhps-opencv">@openhps/opencv</a></strong> - Provides linkage with opencv4nodejs and OpenCV.js for computer vision algorithms on the server or browser.</li>
+				</ul>
+				<a href="#sensor-processing" id="sensor-processing" style="color: inherit; text-decoration: none;">
+					<h3>Sensor Processing</h3>
+				</a>
+				<ul>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-dsp">@openhps/dsp</a></strong> - Adds digital signal processing nodes
+					for filtering raw sensor data.</li>
 				</ul>
 				<a href="#abstractions" id="abstractions" style="color: inherit; text-decoration: none;">
 					<h3>Abstractions</h3>
@@ -176,9 +183,6 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-enum">
-						<a href="enums/gravityprocessingmethod.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Method</a>
-					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/absolute2dposition.html" class="tsd-kind-icon">Absolute2DPosition</a>
 					</li>
@@ -187,9 +191,6 @@
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/acceleration.html" class="tsd-kind-icon">Acceleration</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/accelerationprocessingnode.html" class="tsd-kind-icon">Acceleration<wbr>Processing<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/accelerationunit.html" class="tsd-kind-icon">Acceleration<wbr>Unit</a>
@@ -278,9 +279,6 @@
 					<li class=" tsd-kind-class">
 						<a href="classes/geographicalposition.html" class="tsd-kind-icon">Geographical<wbr>Position</a>
 					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/geomagneticorientationprocessingnode.html" class="tsd-kind-icon">Geomagnetic<wbr>Orientation<wbr>Processing<wbr>Node</a>
-					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/graphbuilder.html" class="tsd-kind-icon">Graph<wbr>Builder</a>
 					</li>
@@ -290,17 +288,11 @@
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/graphshapebuilder.html" class="tsd-kind-icon">Graph<wbr>Shape<wbr>Builder</a>
 					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/gravityprocessingnode.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Node</a>
-					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/hpfilternode.html" class="tsd-kind-icon">HPFilter<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/historysourcenode.html" class="tsd-kind-icon">History<wbr>Source<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/imubrowsersource.html" class="tsd-kind-icon">IMUBrowser<wbr>Source</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/imudataframe.html" class="tsd-kind-icon">IMUData<wbr>Frame</a>
@@ -336,9 +328,6 @@
 						<a href="classes/magnetismunit.html" class="tsd-kind-icon">Magnetism<wbr>Unit</a>
 					</li>
 					<li class=" tsd-kind-class">
-						<a href="classes/magnetometercalibrationnode.html" class="tsd-kind-icon">Magnetometer<wbr>Calibration<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class">
 						<a href="classes/matrix.html" class="tsd-kind-icon">Matrix</a>
 					</li>
 					<li class=" tsd-kind-class">
@@ -360,6 +349,9 @@
 						<a href="classes/modelbuilder.html" class="tsd-kind-icon">Model<wbr>Builder</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="classes/multilaterationnode.html" class="tsd-kind-icon">Multilateration<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/namednode.html" class="tsd-kind-icon">Named<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
@@ -379,12 +371,6 @@
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/orientation.html" class="tsd-kind-icon">Orientation</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/pedometerdata.html" class="tsd-kind-icon">Pedometer<wbr>Data</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="classes/pedometerprocessingnode.html" class="tsd-kind-icon">Pedometer<wbr>Processing<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/processingnode.html" class="tsd-kind-icon">Processing<wbr>Node</a>
@@ -429,9 +415,6 @@
 						<a href="classes/relativerssiposition.html" class="tsd-kind-icon">RelativeRSSIPosition</a>
 					</li>
 					<li class=" tsd-kind-class">
-						<a href="classes/relativerotationprocessingnode.html" class="tsd-kind-icon">Relative<wbr>Rotation<wbr>Processing<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class">
 						<a href="classes/relativevalue.html" class="tsd-kind-icon">Relative<wbr>Value</a>
 					</li>
 					<li class=" tsd-kind-class">
@@ -469,6 +452,9 @@
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/trajectoryservice.html" class="tsd-kind-icon">Trajectory<wbr>Service</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="classes/triangulationnode.html" class="tsd-kind-icon">Triangulation<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/unit.html" class="tsd-kind-icon">Unit</a>
@@ -525,9 +511,6 @@
 						<a href="interfaces/graphoptions.html" class="tsd-kind-icon">Graph<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
-						<a href="interfaces/gravityprocessingoptions.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-interface">
 						<a href="interfaces/hpfilteroptions.html" class="tsd-kind-icon">HPFilter<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter">
@@ -540,13 +523,13 @@
 						<a href="interfaces/lpfilteroptions.html" class="tsd-kind-icon">LPFilter<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
-						<a href="interfaces/magnetomercalibrationoptions.html" class="tsd-kind-icon">Magnetomer<wbr>Calibration<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-interface">
 						<a href="interfaces/mergeshapeoptions.html" class="tsd-kind-icon">Merge<wbr>Shape<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter">
 						<a href="interfaces/model.html" class="tsd-kind-icon">Model</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/multilaterationoptions.html" class="tsd-kind-icon">Multilateration<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/nodeoptions.html" class="tsd-kind-icon">Node<wbr>Options</a>
@@ -559,9 +542,6 @@
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter">
 						<a href="interfaces/outlet.html" class="tsd-kind-icon">Outlet</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="interfaces/pedometeroptions.html" class="tsd-kind-icon">Pedometer<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/position.html" class="tsd-kind-icon">Position</a>
