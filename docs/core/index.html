@@ -89,8 +89,48 @@
 					<li>2D, 3D and Geographical positioning.</li>
 					<li>Relative positioning.</li>
 					<li>Basic positioning algorithms (e.g. trilateration, triangulation, fingerprinting, dead reckoning...)</li>
+					<li>Advanced positioning algorithms (e.g. computer vision through @openhps/opencv)</li>
 					<li>Extremely extensible.</li>
 					<li>Open source.</li>
+				</ul>
+				<a href="#add-ons" id="add-ons" style="color: inherit; text-decoration: none;">
+					<h2>Add-ons</h2>
+				</a>
+				<a href="#positioning-algorithms" id="positioning-algorithms" style="color: inherit; text-decoration: none;">
+					<h3>Positioning Algorithms</h3>
+				</a>
+				<ul>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-trigonometry">@openhps/trigonometry</a></strong> - Adds trigonometry algorithms such as multilateration, trilateration and triangulation.</li>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-fingerprinting">@openhps/fingerprinting</a></strong> - Adds various fingerprinting nodes and services for offline and offline positioning models.</li>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-opencv">@openhps/opencv</a></strong> - Provides linkage with opencv4nodejs and OpenCV.js for computer vision algorithms on the server or browser.</li>
+				</ul>
+				<a href="#abstractions" id="abstractions" style="color: inherit; text-decoration: none;">
+					<h3>Abstractions</h3>
+				</a>
+				<ul>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-spaces">@openhps/spaces</a></strong> - Enables the concept of symbolic spaces (e.g. building, room) on top of reference spaces.</li>
+				</ul>
+				<a href="#data-services" id="data-services" style="color: inherit; text-decoration: none;">
+					<h3>Data Services</h3>
+				</a>
+				<ul>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-mongodb">@openhps/mongodb</a></strong> - Adds MongoDB support for the storage of data objects.</li>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-localstorage">@openhps/localstorage</a></strong> - Basic persistent storage for browser based models.</li>
+				</ul>
+				<a href="#communication" id="communication" style="color: inherit; text-decoration: none;">
+					<h3>Communication</h3>
+				</a>
+				<ul>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-socket">@openhps/socket</a></strong> - Provides node communication through Socket.IO for remote models.</li>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-rest">@openhps/rest</a></strong> - Provides node communication through restful endpoints.</li>
+				</ul>
+				<a href="#misc" id="misc" style="color: inherit; text-decoration: none;">
+					<h3>Misc</h3>
+				</a>
+				<ul>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-sphero">@openhps/sphero</a></strong> - Example implementation for controlling and receiving sensor data from Sphero toys.</li>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-react-native">@openhps/react-native</a></strong> - Provides nodes for retrieving sensor data in react-native.</li>
+					<li><strong><a href="https://github.com/OpenHPS/openhps-csv">@openhps/csv</a></strong> - Read and write data frames from/to CSV files.</li>
 				</ul>
 				<a href="#getting-started" id="getting-started" style="color: inherit; text-decoration: none;">
 					<h2>Getting Started</h2>
@@ -136,6 +176,9 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-enum">
+						<a href="enums/gravityprocessingmethod.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Method</a>
+					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/absolute2dposition.html" class="tsd-kind-icon">Absolute2DPosition</a>
 					</li>
@@ -168,9 +211,6 @@
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/balancenode.html" class="tsd-kind-icon">Balance<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/cachedfingerprint.html" class="tsd-kind-icon">Cached<wbr>Fingerprint</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/callbacknode.html" class="tsd-kind-icon">Callback<wbr>Node</a>
@@ -217,15 +257,6 @@
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/filterprocessingnode.html" class="tsd-kind-icon">Filter<wbr>Processing<wbr>Node</a>
 					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/fingerprint.html" class="tsd-kind-icon">Fingerprint</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="classes/fingerprintingnode.html" class="tsd-kind-icon">Fingerprinting<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/fingerprintingservice.html" class="tsd-kind-icon">Fingerprinting<wbr>Service</a>
-					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/framechunknode.html" class="tsd-kind-icon">Frame<wbr>Chunk<wbr>Node</a>
 					</li>
@@ -240,6 +271,9 @@
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/framemergenode.html" class="tsd-kind-icon">Frame<wbr>Merge<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/gcs.html" class="tsd-kind-icon">GCS</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/geographicalposition.html" class="tsd-kind-icon">Geographical<wbr>Position</a>
@@ -274,11 +308,8 @@
 					<li class=" tsd-kind-class">
 						<a href="classes/imusensorobject.html" class="tsd-kind-icon">IMUSensor<wbr>Object</a>
 					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="classes/knnfingerprintingnode.html" class="tsd-kind-icon">KNNFingerprinting<wbr>Node</a>
-					</li>
 					<li class=" tsd-kind-class">
-						<a href="classes/knnfingerprintingservice.html" class="tsd-kind-icon">KNNFingerprinting<wbr>Service</a>
+						<a href="classes/keyvaluedataservice.html" class="tsd-kind-icon">Key<wbr>Value<wbr>Data<wbr>Service</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/lpfilternode.html" class="tsd-kind-icon">LPFilter<wbr>Node</a>
@@ -306,6 +337,12 @@
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/magnetometercalibrationnode.html" class="tsd-kind-icon">Magnetometer<wbr>Calibration<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/matrix.html" class="tsd-kind-icon">Matrix</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/matrix3.html" class="tsd-kind-icon">Matrix3</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/matrix4.html" class="tsd-kind-icon">Matrix4</a>
@@ -342,6 +379,12 @@
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/orientation.html" class="tsd-kind-icon">Orientation</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/pedometerdata.html" class="tsd-kind-icon">Pedometer<wbr>Data</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="classes/pedometerprocessingnode.html" class="tsd-kind-icon">Pedometer<wbr>Processing<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/processingnode.html" class="tsd-kind-icon">Processing<wbr>Node</a>
@@ -389,6 +432,9 @@
 						<a href="classes/relativerotationprocessingnode.html" class="tsd-kind-icon">Relative<wbr>Rotation<wbr>Processing<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class">
+						<a href="classes/relativevalue.html" class="tsd-kind-icon">Relative<wbr>Value</a>
+					</li>
+					<li class=" tsd-kind-class">
 						<a href="classes/relativevelocity.html" class="tsd-kind-icon">Relative<wbr>Velocity</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
@@ -424,12 +470,6 @@
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/trajectoryservice.html" class="tsd-kind-icon">Trajectory<wbr>Service</a>
 					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="classes/triangulationnode.html" class="tsd-kind-icon">Triangulation<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="classes/trilaterationnode.html" class="tsd-kind-icon">Trilateration<wbr>Node</a>
-					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/unit.html" class="tsd-kind-icon">Unit</a>
 					</li>
@@ -439,7 +479,7 @@
 					<li class=" tsd-kind-class">
 						<a href="classes/unitprefix.html" class="tsd-kind-icon">Unit<wbr>Prefix</a>
 					</li>
-					<li class=" tsd-kind-class">
+					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/unitvalue.html" class="tsd-kind-icon">Unit<wbr>Value</a>
 					</li>
 					<li class=" tsd-kind-class">
@@ -467,7 +507,7 @@
 						<a href="classes/workernode.html" class="tsd-kind-icon">Worker<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class">
-						<a href="classes/workerservice.html" class="tsd-kind-icon">Worker<wbr>Service</a>
+						<a href="classes/workerserviceproxy.html" class="tsd-kind-icon">Worker<wbr>Service<wbr>Proxy</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/absoluteposition.html" class="tsd-kind-icon">Absolute<wbr>Position</a>
@@ -479,22 +519,19 @@
 						<a href="interfaces/filterprocessingoptions.html" class="tsd-kind-icon">Filter<wbr>Processing<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
-						<a href="interfaces/fingerprintingoptions.html" class="tsd-kind-icon">Fingerprinting<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-interface">
 						<a href="interfaces/framecloneoptions.html" class="tsd-kind-icon">Frame<wbr>Clone<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/graphoptions.html" class="tsd-kind-icon">Graph<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
+						<a href="interfaces/gravityprocessingoptions.html" class="tsd-kind-icon">Gravity<wbr>Processing<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
 						<a href="interfaces/hpfilteroptions.html" class="tsd-kind-icon">HPFilter<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter">
 						<a href="interfaces/inlet.html" class="tsd-kind-icon">Inlet</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="interfaces/knnfingerprintingoptions.html" class="tsd-kind-icon">KNNFingerprinting<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/kalmanfilteroptions.html" class="tsd-kind-icon">Kalman<wbr>Filter<wbr>Options</a>
@@ -522,6 +559,9 @@
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter">
 						<a href="interfaces/outlet.html" class="tsd-kind-icon">Outlet</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/pedometeroptions.html" class="tsd-kind-icon">Pedometer<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/position.html" class="tsd-kind-icon">Position</a>
@@ -554,6 +594,9 @@
 						<a href="interfaces/smafilteroptions.html" class="tsd-kind-icon">SMAFilter<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
+						<a href="interfaces/sensorsourceoptions.html" class="tsd-kind-icon">Sensor<wbr>Source<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
 						<a href="interfaces/sinknodeoptions.html" class="tsd-kind-icon">Sink<wbr>Node<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
@@ -566,9 +609,6 @@
 						<a href="interfaces/timedpulloptions.html" class="tsd-kind-icon">Timed<wbr>Pull<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
-						<a href="interfaces/unitdefinition.html" class="tsd-kind-icon">Unit<wbr>Definition</a>
-					</li>
-					<li class=" tsd-kind-interface">
 						<a href="interfaces/unitoptions.html" class="tsd-kind-icon">Unit<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
@@ -576,6 +616,12 @@
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/workernodeoptions.html" class="tsd-kind-icon">Worker<wbr>Node<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/workerservicecall.html" class="tsd-kind-icon">Worker<wbr>Service<wbr>Call</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/workerserviceresponse.html" class="tsd-kind-icon">Worker<wbr>Service<wbr>Response</a>
 					</li>
 					<li class=" tsd-kind-type-alias">
 						<a href="modules.html#eulerorder" class="tsd-kind-icon">Euler<wbr>Order</a>
@@ -585,6 +631,15 @@
 					</li>
 					<li class=" tsd-kind-type-alias">
 						<a href="modules.html#memorybufferoptions" class="tsd-kind-icon">Memory<wbr>Buffer<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="modules.html#unitbasicdefinition" class="tsd-kind-icon">Unit<wbr>Basic<wbr>Definition</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="modules.html#unitdefinition" class="tsd-kind-icon">Unit<wbr>Definition</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="modules.html#unitfunctiondefinition" class="tsd-kind-icon">Unit<wbr>Function<wbr>Definition</a>
 					</li>
 					<li class=" tsd-kind-type-alias">
 						<a href="modules.html#unitprefixtype" class="tsd-kind-icon">Unit<wbr>Prefix<wbr>Type</a>

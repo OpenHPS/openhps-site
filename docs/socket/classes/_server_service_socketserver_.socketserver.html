@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SocketServer | @openhps/socket - v0.1.0-alpha.3</title>
+	<title>SocketServer | @openhps/socket - v0.1.0-alpha.5</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">@openhps/socket - v0.1.0-alpha.3</a>
+					<a href="../index.html" class="title">@openhps/socket - v0.1.0-alpha.5</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -137,6 +137,8 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_server_service_socketserver_.socketserver.html#registernode" class="tsd-kind-icon">register<wbr>Node</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_server_service_socketserver_.socketserver.html#removealllisteners" class="tsd-kind-icon">remove<wbr>All<wbr>Listeners</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_server_service_socketserver_.socketserver.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_server_service_socketserver_.socketserver.html#sendcompleted" class="tsd-kind-icon">send<wbr>Completed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_server_service_socketserver_.socketserver.html#senderror" class="tsd-kind-icon">send<wbr>Error</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_server_service_socketserver_.socketserver.html#setmaxlisteners" class="tsd-kind-icon">set<wbr>Max<wbr>Listeners</a></li>
 							</ul>
 						</section>
@@ -156,7 +158,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides Service.__constructor</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/service/SocketServer.ts#L15">src/server/service/SocketServer.ts:15</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L24">src/server/service/SocketServer.ts:24</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -247,7 +249,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/service/SocketServer.ts#L110">src/server/service/SocketServer.ts:110</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L177">src/server/service/SocketServer.ts:177</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Socket</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -264,7 +266,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/service/SocketServer.ts#L118">src/server/service/SocketServer.ts:118</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L185">src/server/service/SocketServer.ts:185</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Namespace</span></h4>
@@ -281,7 +283,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/service/SocketServer.ts#L114">src/server/service/SocketServer.ts:114</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L181">src/server/service/SocketServer.ts:181</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Server</span></h4>
@@ -917,13 +919,21 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/service/SocketServer.ts#L98">src/server/service/SocketServer.ts:98</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L138">src/server/service/SocketServer.ts:138</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Send a pull request to a specific remote node</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>uid: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Remote Node UID</p>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">PullOptions</span></h5>
@@ -943,9 +953,14 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/service/SocketServer.ts#L94">src/server/service/SocketServer.ts:94</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L128">src/server/service/SocketServer.ts:128</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Send a push to a specific remote node</p>
+								</div>
+							</div>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
 							<ul class="tsd-type-parameters">
 								<li>
@@ -956,9 +971,15 @@
 							<ul class="tsd-parameters">
 								<li>
 									<h5>uid: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Remote Node UID</p>
+									</div>
 								</li>
 								<li>
 									<h5>frame: <span class="tsd-signature-type">T</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Data frame to push</p>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">PushOptions</span></h5>
@@ -1002,16 +1023,25 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/874be95/src/server/service/SocketServer.ts#L102">src/server/service/SocketServer.ts:102</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L169">src/server/service/SocketServer.ts:169</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Register a node as a remotely available node</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>node: <span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Node to register</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>Registration success</p>
 						</li>
 					</ul>
 				</section>
@@ -1081,6 +1111,79 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">this</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="sendcompleted" class="tsd-anchor"></a>
+					<h3>send<wbr>Completed</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Completed<span class="tsd-signature-symbol">(</span>uid<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushCompletedEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L159">src/server/service/SocketServer.ts:159</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Send a completed event to a remote node</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uid: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Remote Node UID</p>
+									</div>
+								</li>
+								<li>
+									<h5>event: <span class="tsd-signature-type">PushCompletedEvent</span></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="senderror" class="tsd-anchor"></a>
+					<h3>send<wbr>Error</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Error<span class="tsd-signature-symbol">(</span>uid<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PushError</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-socket/blob/c9f1930/src/server/service/SocketServer.ts#L148">src/server/service/SocketServer.ts:148</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Send an error to a remote node</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uid: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Remote Node UID</p>
+									</div>
+								</li>
+								<li>
+									<h5>error: <span class="tsd-signature-type">PushError</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Push error</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1271,6 +1374,12 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="_server_service_socketserver_.socketserver.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_server_service_socketserver_.socketserver.html#sendcompleted" class="tsd-kind-icon">send<wbr>Completed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_server_service_socketserver_.socketserver.html#senderror" class="tsd-kind-icon">send<wbr>Error</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="_server_service_socketserver_.socketserver.html#setmaxlisteners" class="tsd-kind-icon">set<wbr>Max<wbr>Listeners</a>

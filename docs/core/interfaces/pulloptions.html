@@ -94,6 +94,8 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="pulloptions.html#count" class="tsd-kind-icon">count</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="pulloptions.html#requestedobjects" class="tsd-kind-icon">requested<wbr>Objects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="pulloptions.html#sequentialpull" class="tsd-kind-icon">sequential<wbr>Pull</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="pulloptions.html#sourcenode" class="tsd-kind-icon">source<wbr>Node</a></li>
 							</ul>
 						</section>
 					</div>
@@ -107,7 +109,7 @@
 					<div class="tsd-signature tsd-kind-icon">count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/graph/interfaces/PullOptions.ts#L12">src/graph/interfaces/PullOptions.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/graph/interfaces/PullOptions.ts#L12">src/graph/interfaces/PullOptions.ts:12</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -122,12 +124,48 @@
 					<div class="tsd-signature tsd-kind-icon">requested<wbr>Objects<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/graph/interfaces/PullOptions.ts#L16">src/graph/interfaces/PullOptions.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/graph/interfaces/PullOptions.ts#L16">src/graph/interfaces/PullOptions.ts:16</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Requested objects UIDs</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sequentialpull" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> sequential<wbr>Pull</h3>
+					<div class="tsd-signature tsd-kind-icon">sequential<wbr>Pull<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/graph/interfaces/PullOptions.ts#L23">src/graph/interfaces/PullOptions.ts:23</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sequential pulling. If set to true, the pulling will be done sequentially where
+							the next pull is only performed after the push is completed.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>default</dt>
+							<dd><p>true</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sourcenode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> source<wbr>Node</h3>
+					<div class="tsd-signature tsd-kind-icon">source<wbr>Node<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/graph/interfaces/PullOptions.ts#L27">src/graph/interfaces/PullOptions.ts:27</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Pull from a specific source node UID</p>
 						</div>
 					</div>
 				</section>
@@ -153,6 +191,12 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="pulloptions.html#requestedobjects" class="tsd-kind-icon">requested<wbr>Objects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="pulloptions.html#sequentialpull" class="tsd-kind-icon">sequential<wbr>Pull</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="pulloptions.html#sourcenode" class="tsd-kind-icon">source<wbr>Node</a>
 							</li>
 						</ul>
 					</li>

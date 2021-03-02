@@ -93,7 +93,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="gravityprocessingnode.html#graph" class="tsd-kind-icon">graph</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="gravityprocessingnode.html#name" class="tsd-kind-icon">name</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="gravityprocessingnode.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="gravityprocessingnode.html#options" class="tsd-kind-icon">options</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="gravityprocessingnode.html#uid" class="tsd-kind-icon">uid</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="gravityprocessingnode.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a></li>
 							</ul>
@@ -152,20 +152,20 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Gravity<wbr>Processing<wbr>Node<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/filterprocessingoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">FilterProcessingOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="gravityprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GravityProcessingNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Gravity<wbr>Processing<wbr>Node<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/gravityprocessingoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GravityProcessingOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="gravityprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GravityProcessingNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/processing/dsp/FilterProcessingNode.ts#L8">src/nodes/processing/dsp/FilterProcessingNode.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/processing/imu/GravityProcessingNode.ts#L9">src/nodes/processing/imu/GravityProcessingNode.ts:9</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/filterprocessingoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">FilterProcessingOptions</a></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/gravityprocessingoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GravityProcessingOptions</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="gravityprocessingnode.html" class="tsd-signature-type" data-tsd-kind="Class">GravityProcessingNode</a></h4>
@@ -182,7 +182,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#graph">graph</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L49">src/Node.ts:49</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L49">src/Node.ts:49</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -198,7 +198,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#name">name</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L45">src/Node.ts:45</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L45">src/Node.ts:45</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -207,14 +207,14 @@
 						</div>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
 					<a name="options" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> options</h3>
-					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/filterprocessingoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">FilterProcessingOptions</a></div>
+					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/gravityprocessingoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GravityProcessingOptions</a></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#options">options</a></p>
+						<p>Overrides <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#options">options</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/processing/dsp/FilterProcessingNode.ts#L8">src/nodes/processing/dsp/FilterProcessingNode.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/processing/imu/GravityProcessingNode.ts#L9">src/nodes/processing/imu/GravityProcessingNode.ts:9</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -225,7 +225,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#uid">uid</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L41">src/Node.ts:41</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L41">src/Node.ts:41</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -258,7 +258,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L120">src/Node.ts:120</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L120">src/Node.ts:120</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -281,7 +281,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L79">src/Node.ts:79</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L79">src/Node.ts:79</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -304,7 +304,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L111">src/Node.ts:111</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L111">src/Node.ts:111</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -381,7 +381,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L124">src/Node.ts:124</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L124">src/Node.ts:124</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -399,7 +399,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L130">src/Node.ts:130</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L130">src/Node.ts:130</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -422,7 +422,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L136">src/Node.ts:136</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L136">src/Node.ts:136</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -448,7 +448,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L142">src/Node.ts:142</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L142">src/Node.ts:142</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -474,7 +474,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L148">src/Node.ts:148</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L148">src/Node.ts:148</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -497,7 +497,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L154">src/Node.ts:154</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L154">src/Node.ts:154</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -529,7 +529,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#emitasync">emitAsync</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -574,7 +574,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#filter">filter</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/processing/imu/GravityProcessingNode.ts#L20">src/nodes/processing/imu/GravityProcessingNode.ts:20</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/processing/imu/GravityProcessingNode.ts#L27">src/nodes/processing/imu/GravityProcessingNode.ts:27</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -601,7 +601,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#findnodedataservice">findNodeDataService</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/ProcessingNode.ts#L86">src/nodes/ProcessingNode.ts:86</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/ProcessingNode.ts#L86">src/nodes/ProcessingNode.ts:86</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="nodedataservice.html" class="tsd-signature-type" data-tsd-kind="Class">NodeDataService</a><span class="tsd-signature-symbol">&lt;</span><a href="nodedata.html" class="tsd-signature-type" data-tsd-kind="Class">NodeData</a><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -619,7 +619,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#findobjectbyuid">findObjectByUID</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/ObjectProcessingNode.ts#L80">src/nodes/ObjectProcessingNode.ts:80</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/ObjectProcessingNode.ts#L80">src/nodes/ObjectProcessingNode.ts:80</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -682,7 +682,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#getnodedata">getNodeData</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/ProcessingNode.ts#L96">src/nodes/ProcessingNode.ts:96</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/ProcessingNode.ts#L96">src/nodes/ProcessingNode.ts:96</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -715,7 +715,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#initfilter">initFilter</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/processing/imu/GravityProcessingNode.ts#L8">src/nodes/processing/imu/GravityProcessingNode.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/processing/imu/GravityProcessingNode.ts#L16">src/nodes/processing/imu/GravityProcessingNode.ts:16</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -745,7 +745,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#isavailable">isAvailable</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L92">src/Node.ts:92</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L92">src/Node.ts:92</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -769,7 +769,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#isready">isReady</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L83">src/Node.ts:83</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L83">src/Node.ts:83</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -835,7 +835,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#logger">logger</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L102">src/Node.ts:102</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L102">src/Node.ts:102</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -923,7 +923,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L159">src/Node.ts:159</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L159">src/Node.ts:159</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -959,7 +959,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L166">src/Node.ts:166</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L166">src/Node.ts:166</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1000,7 +1000,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L173">src/Node.ts:173</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L173">src/Node.ts:173</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1047,7 +1047,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L180">src/Node.ts:180</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L180">src/Node.ts:180</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1094,7 +1094,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L187">src/Node.ts:187</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L187">src/Node.ts:187</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1141,7 +1141,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L194">src/Node.ts:194</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L194">src/Node.ts:194</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1205,7 +1205,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L199">src/Node.ts:199</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L199">src/Node.ts:199</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1241,7 +1241,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L206">src/Node.ts:206</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L206">src/Node.ts:206</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1282,7 +1282,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L213">src/Node.ts:213</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L213">src/Node.ts:213</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1329,7 +1329,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L220">src/Node.ts:220</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L220">src/Node.ts:220</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1370,7 +1370,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L227">src/Node.ts:227</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L227">src/Node.ts:227</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1417,7 +1417,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L234">src/Node.ts:234</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L234">src/Node.ts:234</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1467,7 +1467,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#onceavailable">onceAvailable</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L302">src/Node.ts:302</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L302">src/Node.ts:302</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1491,7 +1491,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#oncecompleted">onceCompleted</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L320">src/Node.ts:320</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L320">src/Node.ts:320</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1614,7 +1614,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#process">process</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/ObjectProcessingNode.ts#L38">src/nodes/ObjectProcessingNode.ts:38</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/ObjectProcessingNode.ts#L38">src/nodes/ObjectProcessingNode.ts:38</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1641,7 +1641,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#processobject">processObject</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/processing/dsp/FilterProcessingNode.ts#L14">src/nodes/processing/dsp/FilterProcessingNode.ts:14</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/processing/dsp/FilterProcessingNode.ts#L14">src/nodes/processing/dsp/FilterProcessingNode.ts:14</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1668,7 +1668,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#pull">pull</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L245">src/Node.ts:245</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L245">src/Node.ts:245</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1698,7 +1698,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#push">push</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/Node.ts#L273">src/Node.ts:273</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/Node.ts#L273">src/Node.ts:273</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1851,7 +1851,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="filterprocessingnode.html">FilterProcessingNode</a>.<a href="filterprocessingnode.html#setnodedata">setNodeData</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/3e42882/src/nodes/ProcessingNode.ts#L109">src/nodes/ProcessingNode.ts:109</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/fe7355d/src/nodes/ProcessingNode.ts#L109">src/nodes/ProcessingNode.ts:109</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1939,7 +1939,7 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="gravityprocessingnode.html#name" class="tsd-kind-icon">name</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
 								<a href="gravityprocessingnode.html#options" class="tsd-kind-icon">options</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">

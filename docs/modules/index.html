@@ -99,25 +99,37 @@
 <p>This page lists the official OpenHPS modules that are available.</p>
 <h2 id="%40openhps%2Fcore"><a href="/docs/core/">@openhps/core</a></h2>
 <p>The core module offers the processing network model and commonly used nodes for sampling absolute and relative positions. It offers 2D, 3D and geographical positioning through trilateration, triangulation, fingerprinting and velocity processing.</p>
-<h2 id="%40openhps%2Fopencv"><a href="/docs/opencv">@openhps/opencv</a></h2>
-<p>Our OpenCV module works for both node.js (using opencv4nodejs) and browsers (opencv.js). This offers processing nodes for image processing.</p>
-<h2 id="%40openhps%2Fcsv"><a href="/docs/csv">@openhps/csv</a></h2>
-<p>Used for prototyping, the csv component offers simple nodes for loading and saving data from and to CSV files.</p>
-<h2 id="%40openhps%2Fmongodb"><a href="/docs/mongodb">@openhps/mongodb</a></h2>
-<p>The MongoDB component offers a persistent datastorage for serialised data objects or frames.</p>
-<h2 id="%40openhps%2Flocalstorage"><a href="/docs/localstorage">@openhps/localstorage</a></h2>
-<p>Browser implementations of OpenHPS can make use of the HTML5 localstorage using @openhps/localstorage.</p>
-<h2 id="%40openhps%2Fsocket"><a href="/docs/socket">@openhps/socket</a></h2>
-<p>With the Socket API, remote nodes can be added using a websocket connection. This allows bidirectional pulling and pushing of data frames of the HTTP protocol.</p>
-<h2 id="%40openhps%2Frest"><a href="/docs/rest">@openhps/rest</a></h2>
-<p>The REST API offers automatically created endpoints for remote nodes. These endpoints can be used to push new data frames.</p>
-<h2 id="%40openhps%2Fsphero"><a href="/docs/sphero">@openhps/sphero</a></h2>
-<p>Sphero is a brand of educational toys that can be controlled using Bluetooth. This module offers server (using noble) and web support for controlling the Sphero toys and retrieving sensor data.</p>
+<h2 id="positioning-algorithms">Positioning Algorithms</h2>
+<ul>
+<li><strong><a href="https://github.com/OpenHPS/openhps-trigonometry">@openhps/trigonometry</a></strong> - Adds trigonometry algorithms such as multilateration, trilateration and triangulation.</li>
+<li><strong><a href="https://github.com/OpenHPS/openhps-fingerprinting">@openhps/fingerprinting</a></strong> - Adds various fingerprinting nodes and services for offline and offline positioning models.</li>
+<li><strong><a href="https://github.com/OpenHPS/openhps-opencv">@openhps/opencv</a></strong> - Provides linkage with opencv4nodejs and OpenCV.js for computer vision algorithms on the server or browser.</li>
+</ul>
+<h2 id="abstractions">Abstractions</h2>
+<ul>
+<li><strong><a href="https://github.com/OpenHPS/openhps-spaces">@openhps/spaces</a></strong> - Enables the concept of symbolic spaces (e.g. building, room) on top of reference spaces.</li>
+</ul>
+<h2 id="data-services">Data Services</h2>
+<ul>
+<li><strong><a href="https://github.com/OpenHPS/openhps-mongodb">@openhps/mongodb</a></strong> - Adds MongoDB support for the storage of data objects.</li>
+<li><strong><a href="https://github.com/OpenHPS/openhps-localstorage">@openhps/localstorage</a></strong> - Basic persistent storage for browser based models.</li>
+</ul>
+<h2 id="communication">Communication</h2>
+<ul>
+<li><strong><a href="https://github.com/OpenHPS/openhps-socket">@openhps/socket</a></strong> - Provides node communication through Socket.IO for remote models.</li>
+<li><strong><a href="https://github.com/OpenHPS/openhps-rest">@openhps/rest</a></strong> - Provides node communication through restful endpoints.</li>
+</ul>
+<h2 id="misc">Misc</h2>
+<ul>
+<li><strong><a href="https://github.com/OpenHPS/openhps-sphero">@openhps/sphero</a></strong> - Example implementation for controlling and receiving sensor data from Sphero toys.</li>
+<li><strong><a href="https://github.com/OpenHPS/openhps-react-native">@openhps/react-native</a></strong> - Provides nodes for retrieving sensor data in react-native.</li>
+<li><strong><a href="https://github.com/OpenHPS/openhps-csv">@openhps/csv</a></strong> - Read and write data frames from/to CSV files.</li>
+</ul>
 
     </div>
     <div class="col-sm-3 toc-container">
       <div class="toc">
-        <ol><li><a href="#%40openhps%2Fcore">@openhps/core</a></li><li><a href="#%40openhps%2Fopencv">@openhps/opencv</a></li><li><a href="#%40openhps%2Fcsv">@openhps/csv</a></li><li><a href="#%40openhps%2Fmongodb">@openhps/mongodb</a></li><li><a href="#%40openhps%2Flocalstorage">@openhps/localstorage</a></li><li><a href="#%40openhps%2Fsocket">@openhps/socket</a></li><li><a href="#%40openhps%2Frest">@openhps/rest</a></li><li><a href="#%40openhps%2Fsphero">@openhps/sphero</a></li></ol></div>
+        <ol><li><a href="#%40openhps%2Fcore">@openhps/core</a></li><li><a href="#positioning-algorithms">Positioning Algorithms</a></li><li><a href="#abstractions">Abstractions</a></li><li><a href="#data-services">Data Services</a></li><li><a href="#communication">Communication</a></li><li><a href="#misc">Misc</a></li></ol></div>
     </div>
   </div>
 </div>
