@@ -65,6 +65,13 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Time service for retrieving the current time.</p>
+					</div>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -85,16 +92,19 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><a href="timeservice.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="timeservice.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
-						<section class="tsd-index-section ">
+						<section class="tsd-index-section tsd-is-inherited">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="timeservice.html#logger" class="tsd-kind-icon">logger</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="timeservice.html#model" class="tsd-kind-icon">model</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="timeservice.html#name" class="tsd-kind-icon">name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="timeservice.html#capturerejectionsymbol" class="tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="timeservice.html#capturerejections" class="tsd-kind-icon">capture<wbr>Rejections</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="timeservice.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="timeservice.html#errormonitor" class="tsd-kind-icon">error<wbr>Monitor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -123,6 +133,8 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="timeservice.html#initialize" class="tsd-kind-icon">initialize</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="timeservice.html#listenercount-1" class="tsd-kind-icon">listener<wbr>Count</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="timeservice.html#now" class="tsd-kind-icon">now</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="timeservice.html#on-1" class="tsd-kind-icon">on</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="timeservice.html#once-1" class="tsd-kind-icon">once</a></li>
 							</ul>
 						</section>
 					</div>
@@ -130,18 +142,18 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 						<li class="tsd-signature tsd-kind-icon">new <wbr>Time<wbr>Service<span class="tsd-signature-symbol">(</span>timeCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span>, unit<span class="tsd-signature-symbol">?: </span><a href="timeunit.html" class="tsd-signature-type" data-tsd-kind="Class">TimeUnit</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="timeservice.html" class="tsd-signature-type" data-tsd-kind="Class">TimeService</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#constructor">constructor</a></p>
+								<p>Overrides <a href="service.html">Service</a>.<a href="service.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/TimeService.ts#L8">src/service/TimeService.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/TimeService.ts#L11">src/service/TimeService.ts:11</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -170,7 +182,7 @@
 					</ul>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group ">
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="logger" class="tsd-anchor"></a>
@@ -179,7 +191,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#logger">logger</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L12">src/service/Service.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L12">src/service/Service.ts:12</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -214,7 +226,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#model">model</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L13">src/service/Service.ts:13</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L13">src/service/Service.ts:13</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -225,12 +237,39 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#name">name</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L11">src/service/Service.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L11">src/service/Service.ts:11</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Service name</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+					<a name="capturerejectionsymbol" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> capture<wbr>Rejection<wbr>Symbol</h3>
+					<div class="tsd-signature tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="graphshape.html#capturerejectionsymbol" class="tsd-signature-type" data-tsd-kind="Property">captureRejectionSymbol</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#capturerejectionsymbol">captureRejectionSymbol</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/node/events.d.ts:35</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+					<a name="capturerejections" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> capture<wbr>Rejections</h3>
+					<div class="tsd-signature tsd-kind-icon">capture<wbr>Rejections<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#capturerejections">captureRejections</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/node/events.d.ts:41</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets or gets the default captureRejection value for all emitters.</p>
 						</div>
 					</div>
 				</section>
@@ -241,9 +280,30 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#defaultmaxlisteners">defaultMaxListeners</a></p>
 						<ul>
-							<li>Defined in node_modules/@types/node/events.d.ts:30</li>
+							<li>Defined in node_modules/@types/node/events.d.ts:42</li>
 						</ul>
 					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+					<a name="errormonitor" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> error<wbr>Monitor</h3>
+					<div class="tsd-signature tsd-kind-icon">error<wbr>Monitor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="graphshape.html#errormonitor" class="tsd-signature-type" data-tsd-kind="Property">errorMonitor</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#errormonitor">errorMonitor</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/node/events.d.ts:34</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>This symbol shall be used to install a listener for only monitoring <code>&#39;error&#39;</code>
+								events. Listeners installed using this symbol are called before the regular
+							<code>&#39;error&#39;</code> listeners are called.</p>
+						</div>
+						<p>Installing a listener using this symbol does not change the behavior once an
+							<code>&#39;error&#39;</code> event is emitted, therefore the process will still crash if no
+						regular <code>&#39;error&#39;</code> listener is installed.</p>
+					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
@@ -259,7 +319,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#addlistener">addListener</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:32</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:636</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -306,7 +366,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L29">src/service/Service.ts:29</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L29">src/service/Service.ts:29</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -324,7 +384,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L35">src/service/Service.ts:35</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L35">src/service/Service.ts:35</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -347,7 +407,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L41">src/service/Service.ts:41</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L41">src/service/Service.ts:41</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -379,7 +439,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#emitasync">emitAsync</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -406,7 +466,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#eventnames">eventNames</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:45</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:651</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -424,7 +484,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#getmaxlisteners">getMaxListeners</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:41</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:643</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -441,7 +501,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/TimeService.ts#L52">src/service/TimeService.ts:52</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/TimeService.ts#L55">src/service/TimeService.ts:55</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -464,7 +524,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/TimeService.ts#L61">src/service/TimeService.ts:61</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/TimeService.ts#L64">src/service/TimeService.ts:64</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -488,7 +548,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#isready">isReady</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L25">src/service/Service.ts:25</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L25">src/service/Service.ts:25</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -506,7 +566,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#listenercount">listenerCount</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:46</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:647</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -530,7 +590,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#listeners">listeners</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:42</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:644</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -554,7 +614,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#off">off</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:38</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:640</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -599,7 +659,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#on">on</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:33</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:637</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -647,7 +707,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L46">src/service/Service.ts:46</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L46">src/service/Service.ts:46</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -683,7 +743,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L53">src/service/Service.ts:53</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L53">src/service/Service.ts:53</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -724,7 +784,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L60">src/service/Service.ts:60</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L60">src/service/Service.ts:60</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -765,7 +825,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/Service.ts#L67">src/service/Service.ts:67</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/Service.ts#L67">src/service/Service.ts:67</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -815,7 +875,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#prependlistener">prependListener</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:35</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:649</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -860,7 +920,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#prependoncelistener">prependOnceListener</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:36</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:650</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -905,7 +965,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#rawlisteners">rawListeners</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:43</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:645</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -929,7 +989,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#removealllisteners">removeAllListeners</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:39</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:641</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -953,7 +1013,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#removelistener">removeListener</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:37</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:639</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -998,7 +1058,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#setmaxlisteners">setMaxListeners</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:40</li>
+									<li>Defined in node_modules/@types/node/globals.d.ts:642</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1021,7 +1081,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/TimeService.ts#L77">src/service/TimeService.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/TimeService.ts#L80">src/service/TimeService.ts:80</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="timeunit.html" class="tsd-signature-type" data-tsd-kind="Class">TimeUnit</a></h4>
@@ -1038,7 +1098,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/TimeService.ts#L30">src/service/TimeService.ts:30</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/TimeService.ts#L33">src/service/TimeService.ts:33</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1056,7 +1116,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#listenercount-1">listenerCount</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/node/events.d.ts:29</li>
+									<li>Defined in node_modules/@types/node/events.d.ts:23</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1089,7 +1149,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/service/TimeService.ts#L70">src/service/TimeService.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/service/TimeService.ts#L73">src/service/TimeService.ts:73</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1099,6 +1159,79 @@
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 							<p>Current time in a specific unit</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+					<a name="on-1" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> on</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>emitter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventEmitter</span>, event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AsyncIterableIterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#on-1">on</a></p>
+								<ul>
+									<li>Defined in node_modules/@types/node/events.d.ts:20</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>emitter: <span class="tsd-signature-type">EventEmitter</span></h5>
+								</li>
+								<li>
+									<h5>event: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AsyncIterableIterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+					<a name="once-1" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> once</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>emitter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NodeEventTarget</span>, event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>emitter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DOMEventTarget</span>, event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#once-1">once</a></p>
+								<ul>
+									<li>Defined in node_modules/@types/node/events.d.ts:18</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>emitter: <span class="tsd-signature-type">NodeEventTarget</span></h5>
+								</li>
+								<li>
+									<h5>event: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="service.html">Service</a>.<a href="service.html#once-1">once</a></p>
+								<ul>
+									<li>Defined in node_modules/@types/node/events.d.ts:19</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>emitter: <span class="tsd-signature-type">DOMEventTarget</span></h5>
+								</li>
+								<li>
+									<h5>event: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1119,7 +1252,7 @@
 					<li class="current tsd-kind-class">
 						<a href="timeservice.html" class="tsd-kind-icon">Time<wbr>Service</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 								<a href="timeservice.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -1132,7 +1265,16 @@
 								<a href="timeservice.html#name" class="tsd-kind-icon">name</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+								<a href="timeservice.html#capturerejectionsymbol" class="tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+								<a href="timeservice.html#capturerejections" class="tsd-kind-icon">capture<wbr>Rejections</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
 								<a href="timeservice.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+								<a href="timeservice.html#errormonitor" class="tsd-kind-icon">error<wbr>Monitor</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="timeservice.html#addlistener" class="tsd-kind-icon">add<wbr>Listener</a>
@@ -1202,6 +1344,12 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
 								<a href="timeservice.html#now" class="tsd-kind-icon">now</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+								<a href="timeservice.html#on-1" class="tsd-kind-icon">on</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
+								<a href="timeservice.html#once-1" class="tsd-kind-icon">once</a>
 							</li>
 						</ul>
 					</li>

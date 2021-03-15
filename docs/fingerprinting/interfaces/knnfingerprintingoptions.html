@@ -88,6 +88,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="knnfingerprintingoptions.html#classifier" class="tsd-kind-icon">classifier</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="knnfingerprintingoptions.html#framefilter" class="tsd-kind-icon">frame<wbr>Filter</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="knnfingerprintingoptions.html#k" class="tsd-kind-icon">k</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="knnfingerprintingoptions.html#locked" class="tsd-kind-icon">locked</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="knnfingerprintingoptions.html#naive" class="tsd-kind-icon">naive</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="knnfingerprintingoptions.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="knnfingerprintingoptions.html#objectfilter" class="tsd-kind-icon">object<wbr>Filter</a></li>
@@ -110,7 +111,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="fingerprintingnodeoptions.html">FingerprintingNodeOptions</a>.<a href="fingerprintingnodeoptions.html#classifier">classifier</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/nodes/FingerprintingNode.ts#L98">src/nodes/FingerprintingNode.ts:98</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/FingerprintingNode.ts#L145">src/nodes/FingerprintingNode.ts:145</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -167,7 +168,7 @@
 					<div class="tsd-signature tsd-kind-icon">k<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/nodes/KNNFingerprintingNode.ts#L110">src/nodes/KNNFingerprintingNode.ts:110</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/KNNFingerprintingNode.ts#L107">src/nodes/KNNFingerprintingNode.ts:107</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -176,13 +177,24 @@
 						</div>
 					</div>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="locked" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> locked</h3>
+					<div class="tsd-signature tsd-kind-icon">locked<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="fingerprintingnodeoptions.html">FingerprintingNodeOptions</a>.<a href="fingerprintingnodeoptions.html#locked">locked</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/FingerprintingNode.ts#L139">src/nodes/FingerprintingNode.ts:139</a></li>
+						</ul>
+					</aside>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="naive" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> naive</h3>
 					<div class="tsd-signature tsd-kind-icon">naive<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/nodes/KNNFingerprintingNode.ts#L118">src/nodes/KNNFingerprintingNode.ts:118</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/KNNFingerprintingNode.ts#L115">src/nodes/KNNFingerprintingNode.ts:115</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -198,7 +210,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="fingerprintingnodeoptions.html">FingerprintingNodeOptions</a>.<a href="fingerprintingnodeoptions.html#name">name</a></p>
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:220</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:227</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -254,7 +266,7 @@
 					<div class="tsd-signature tsd-kind-icon">similarity<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>point<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span>, fingerprint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/nodes/KNNFingerprintingNode.ts#L124">src/nodes/KNNFingerprintingNode.ts:124</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/KNNFingerprintingNode.ts#L121">src/nodes/KNNFingerprintingNode.ts:121</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -299,7 +311,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="fingerprintingnodeoptions.html">FingerprintingNodeOptions</a>.<a href="fingerprintingnodeoptions.html#uid">uid</a></p>
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:215</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:222</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -315,7 +327,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="fingerprintingnodeoptions.html">FingerprintingNodeOptions</a>.<a href="fingerprintingnodeoptions.html#valuefilter">valueFilter</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/nodes/FingerprintingNode.ts#L102">src/nodes/FingerprintingNode.ts:102</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/FingerprintingNode.ts#L149">src/nodes/FingerprintingNode.ts:149</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -351,7 +363,7 @@
 					<div class="tsd-signature tsd-kind-icon">weight<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>distance<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/nodes/KNNFingerprintingNode.ts#L130">src/nodes/KNNFingerprintingNode.ts:130</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/KNNFingerprintingNode.ts#L127">src/nodes/KNNFingerprintingNode.ts:127</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -392,7 +404,7 @@
 					<div class="tsd-signature tsd-kind-icon">weighted<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/nodes/KNNFingerprintingNode.ts#L114">src/nodes/KNNFingerprintingNode.ts:114</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/nodes/KNNFingerprintingNode.ts#L111">src/nodes/KNNFingerprintingNode.ts:111</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -419,6 +431,9 @@
 					<li class=" tsd-kind-class">
 						<a href="../classes/fingerprint.html" class="tsd-kind-icon">Fingerprint</a>
 					</li>
+					<li class=" tsd-kind-class">
+						<a href="../classes/fingerprintfeature.html" class="tsd-kind-icon">Fingerprint<wbr>Feature</a>
+					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="../classes/fingerprintservice.html" class="tsd-kind-icon">Fingerprint<wbr>Service</a>
 					</li>
@@ -426,13 +441,10 @@
 						<a href="../classes/fingerprintingnode.html" class="tsd-kind-icon">Fingerprinting<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="../classes/imufeatureextractionnode.html" class="tsd-kind-icon">IMUFeature<wbr>Extraction<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="../classes/knnfingerprintingnode.html" class="tsd-kind-icon">KNNFingerprinting<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="../classes/offlinefingerprintingnode.html" class="tsd-kind-icon">Offline<wbr>Fingerprinting<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="../classes/onlinefingerprintingnode.html" class="tsd-kind-icon">Online<wbr>Fingerprinting<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="../classes/weightfunction.html" class="tsd-kind-icon">Weight<wbr>Function</a>
@@ -456,6 +468,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="knnfingerprintingoptions.html#k" class="tsd-kind-icon">k</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="knnfingerprintingoptions.html#locked" class="tsd-kind-icon">locked</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="knnfingerprintingoptions.html#naive" class="tsd-kind-icon">naive</a>

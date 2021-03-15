@@ -94,7 +94,9 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fingerprint.html#classifier" class="tsd-kind-icon">classifier</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#createdtimestamp" class="tsd-kind-icon">created<wbr>Timestamp</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#displayname" class="tsd-kind-icon">display<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fingerprint.html#features" class="tsd-kind-icon">features</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#parentuid" class="tsd-kind-icon">parentUID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fingerprint.html#processed" class="tsd-kind-icon">processed</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="fingerprint.html#vector" class="tsd-kind-icon">vector</a></li>
 							</ul>
 						</section>
@@ -110,6 +112,7 @@
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="fingerprint.html#addfeature" class="tsd-kind-icon">add<wbr>Feature</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#addrelativeposition" class="tsd-kind-icon">add<wbr>Relative<wbr>Position</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#bind" class="tsd-kind-icon">bind</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#clone" class="tsd-kind-icon">clone</a></li>
@@ -117,6 +120,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#getposition" class="tsd-kind-icon">get<wbr>Position</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#getrelativeposition" class="tsd-kind-icon">get<wbr>Relative<wbr>Position</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#getrelativepositions" class="tsd-kind-icon">get<wbr>Relative<wbr>Positions</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="fingerprint.html#hasfeature" class="tsd-kind-icon">has<wbr>Feature</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#hasrelativeposition" class="tsd-kind-icon">has<wbr>Relative<wbr>Position</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#removerelativepositions" class="tsd-kind-icon">remove<wbr>Relative<wbr>Positions</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="fingerprint.html#setposition" class="tsd-kind-icon">set<wbr>Position</a></li>
@@ -137,7 +141,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/data/Fingerprint.ts#L8">src/data/Fingerprint.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L13">src/data/Fingerprint.ts:13</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -159,7 +163,7 @@
 					<div class="tsd-signature tsd-kind-icon">classifier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/data/Fingerprint.ts#L8">src/data/Fingerprint.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L9">src/data/Fingerprint.ts:9</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -188,6 +192,16 @@
 						</div>
 					</div>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="features" class="tsd-anchor"></a>
+					<h3>features</h3>
+					<div class="tsd-signature tsd-kind-icon">features<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="fingerprintfeature.html" class="tsd-signature-type" data-tsd-kind="Class">FingerprintFeature</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L13">src/data/Fingerprint.ts:13</a></li>
+						</ul>
+					</aside>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="parentuid" class="tsd-anchor"></a>
 					<h3>parentUID</h3>
@@ -204,12 +218,22 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="processed" class="tsd-anchor"></a>
+					<h3>processed</h3>
+					<div class="tsd-signature tsd-kind-icon">processed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L11">src/data/Fingerprint.ts:11</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="vector" class="tsd-anchor"></a>
 					<h3>vector</h3>
 					<div class="tsd-signature tsd-kind-icon">vector<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/data/Fingerprint.ts#L6">src/data/Fingerprint.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L7">src/data/Fingerprint.ts:7</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -316,7 +340,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/data/Fingerprint.ts#L20">src/data/Fingerprint.ts:20</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L49">src/data/Fingerprint.ts:49</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -387,6 +411,44 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addfeature" class="tsd-anchor"></a>
+					<h3>add<wbr>Feature</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Feature<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="fingerprint.html" class="tsd-signature-type" data-tsd-kind="Class">Fingerprint</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L36">src/data/Fingerprint.ts:36</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Add a feature to the fingerprint</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Feature key</p>
+									</div>
+								</li>
+								<li>
+									<h5>value: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Feature value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="fingerprint.html" class="tsd-signature-type" data-tsd-kind="Class">Fingerprint</a></h4>
+							<p>instance</p>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
 					<a name="addrelativeposition" class="tsd-anchor"></a>
 					<h3>add<wbr>Relative<wbr>Position</h3>
@@ -501,13 +563,13 @@
 					<a name="computevector" class="tsd-anchor"></a>
 					<h3>compute<wbr>Vector</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">compute<wbr>Vector<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">compute<wbr>Vector<span class="tsd-signature-symbol">(</span>aggFn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span>, key<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/56f994e/src/data/Fingerprint.ts#L27">src/data/Fingerprint.ts:27</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L58">src/data/Fingerprint.ts:58</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -515,6 +577,36 @@
 									<p>Compute the relative position vector from the relative positions</p>
 								</div>
 							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>aggFn: <span class="tsd-signature-symbol">(</span>values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span>, key<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Aggregation function</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span>, key<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>values: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
+														</li>
+														<li>
+															<h5><span class="tsd-flag ts-flagOptional">Optional</span> key: <span class="tsd-signature-type">string</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -612,6 +704,38 @@
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">RelativePosition</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h4>
 							<p>Array of relative positions for the reference object</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="hasfeature" class="tsd-anchor"></a>
+					<h3>has<wbr>Feature</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">has<wbr>Feature<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-fingerprinting/blob/5b4c206/src/data/Fingerprint.ts#L25">src/data/Fingerprint.ts:25</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Check if a fingerprint has a feature</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Feature key</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>Existance of feature</p>
 						</li>
 					</ul>
 				</section>
@@ -727,8 +851,14 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
 								<a href="fingerprint.html#displayname" class="tsd-kind-icon">display<wbr>Name</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fingerprint.html#features" class="tsd-kind-icon">features</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
 								<a href="fingerprint.html#parentuid" class="tsd-kind-icon">parentUID</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="fingerprint.html#processed" class="tsd-kind-icon">processed</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="fingerprint.html#vector" class="tsd-kind-icon">vector</a>
@@ -744,6 +874,9 @@
 							</li>
 							<li class=" tsd-kind-accessor tsd-parent-kind-class tsd-is-external">
 								<a href="fingerprint.html#uid" class="tsd-kind-icon">uid</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="fingerprint.html#addfeature" class="tsd-kind-icon">add<wbr>Feature</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
 								<a href="fingerprint.html#addrelativeposition" class="tsd-kind-icon">add<wbr>Relative<wbr>Position</a>
@@ -766,6 +899,9 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
 								<a href="fingerprint.html#getrelativepositions" class="tsd-kind-icon">get<wbr>Relative<wbr>Positions</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="fingerprint.html#hasfeature" class="tsd-kind-icon">has<wbr>Feature</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
 								<a href="fingerprint.html#hasrelativeposition" class="tsd-kind-icon">has<wbr>Relative<wbr>Position</a>
 							</li>
@@ -779,6 +915,9 @@
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-class">
+						<a href="fingerprintfeature.html" class="tsd-kind-icon">Fingerprint<wbr>Feature</a>
+					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="fingerprintservice.html" class="tsd-kind-icon">Fingerprint<wbr>Service</a>
 					</li>
@@ -786,13 +925,10 @@
 						<a href="fingerprintingnode.html" class="tsd-kind-icon">Fingerprinting<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="imufeatureextractionnode.html" class="tsd-kind-icon">IMUFeature<wbr>Extraction<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="knnfingerprintingnode.html" class="tsd-kind-icon">KNNFingerprinting<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="offlinefingerprintingnode.html" class="tsd-kind-icon">Offline<wbr>Fingerprinting<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="onlinefingerprintingnode.html" class="tsd-kind-icon">Online<wbr>Fingerprinting<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="weightfunction.html" class="tsd-kind-icon">Weight<wbr>Function</a>

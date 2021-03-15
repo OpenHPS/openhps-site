@@ -90,6 +90,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="imusourcenodeoptions.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="imusourcenodeoptions.html#persistence" class="tsd-kind-icon">persistence</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="imusourcenodeoptions.html#sensors" class="tsd-kind-icon">sensors</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="imusourcenodeoptions.html#softstop" class="tsd-kind-icon">soft<wbr>Stop</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="imusourcenodeoptions.html#source" class="tsd-kind-icon">source</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="imusourcenodeoptions.html#uid" class="tsd-kind-icon">uid</a></li>
 							</ul>
@@ -135,7 +136,7 @@
 					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:220</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:227</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -168,10 +169,20 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="sensors" class="tsd-anchor"></a>
 					<h3>sensors</h3>
-					<div class="tsd-signature tsd-kind-icon">sensors<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Sensor</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">sensors<span class="tsd-signature-symbol">:</span> <a href="../enums/sensortype.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SensorType</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-react-native/blob/5b36754/src/nodes/IMUSourceNode.ts#L131">src/nodes/IMUSourceNode.ts:131</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-react-native/blob/a7ac62d/src/nodes/IMUSourceNode.ts#L142">src/nodes/IMUSourceNode.ts:142</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="softstop" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> soft<wbr>Stop</h3>
+					<div class="tsd-signature tsd-kind-icon">soft<wbr>Stop<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-react-native/blob/a7ac62d/src/nodes/IMUSourceNode.ts#L143">src/nodes/IMUSourceNode.ts:143</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -196,7 +207,7 @@
 					<div class="tsd-signature tsd-kind-icon">uid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:215</li>
+							<li>Defined in node_modules/@openhps/core/dist/cjs/Node.d.ts:222</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -217,6 +228,9 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-enum">
+						<a href="../enums/sensortype.html" class="tsd-kind-icon">Sensor<wbr>Type</a>
+					</li>
 					<li class=" tsd-kind-class">
 						<a href="../classes/blesourcenode.html" class="tsd-kind-icon">BLESource<wbr>Node</a>
 					</li>
@@ -231,6 +245,9 @@
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="blesourcenodeoptions.html" class="tsd-kind-icon">BLESource<wbr>Node<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="geolocationsourceoptions.html" class="tsd-kind-icon">Geolocation<wbr>Source<wbr>Options</a>
 					</li>
 				</ul>
 				<ul class="current">
@@ -251,6 +268,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="imusourcenodeoptions.html#sensors" class="tsd-kind-icon">sensors</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="imusourcenodeoptions.html#softstop" class="tsd-kind-icon">soft<wbr>Stop</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 								<a href="imusourcenodeoptions.html#source" class="tsd-kind-icon">source</a>

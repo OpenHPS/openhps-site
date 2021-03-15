@@ -92,7 +92,7 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="orientation.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -101,6 +101,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#_onchangecallback" class="tsd-kind-icon">_on<wbr>Change<wbr>Callback</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="orientation.html#accuracy" class="tsd-kind-icon">accuracy</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#isquaternion" class="tsd-kind-icon">is<wbr>Quaternion</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="orientation.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#w" class="tsd-kind-icon">w</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#x" class="tsd-kind-icon">x</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#y" class="tsd-kind-icon">y</a></li>
@@ -112,7 +113,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#_onchange" class="tsd-kind-icon">_on<wbr>Change</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#angleto" class="tsd-kind-icon">angle<wbr>To</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#clone" class="tsd-kind-icon">clone</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="orientation.html#clone" class="tsd-kind-icon">clone</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#conjugate" class="tsd-kind-icon">conjugate</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#copy" class="tsd-kind-icon">copy</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="orientation.html#dot" class="tsd-kind-icon">dot</a></li>
@@ -156,18 +157,18 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 						<li class="tsd-signature tsd-kind-icon">new <wbr>Orientation<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, z<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, w<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, accuracy<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#constructor">constructor</a></p>
+								<p>Overrides <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/position/Orientation.ts#L15">src/data/position/Orientation.ts:15</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/position/Orientation.ts#L19">src/data/position/Orientation.ts:19</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -198,13 +199,28 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="_onchangecallback" class="tsd-anchor"></a>
 					<h3>_on<wbr>Change<wbr>Callback</h3>
-					<div class="tsd-signature tsd-kind-icon">_on<wbr>Change<wbr>Callback<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
+					<div class="tsd-signature tsd-kind-icon">_on<wbr>Change<wbr>Callback<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#_onchangecallback">_onChangeCallback</a></p>
 						<ul>
-							<li>Defined in src/utils/math/three/math/Quaternion.d.ts:147</li>
+							<li>Defined in src/utils/math/three/math/Quaternion.d.ts:139</li>
 						</ul>
 					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="accuracy" class="tsd-anchor"></a>
@@ -212,7 +228,7 @@
 					<div class="tsd-signature tsd-kind-icon">accuracy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/position/Orientation.ts#L15">src/data/position/Orientation.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/position/Orientation.ts#L19">src/data/position/Orientation.ts:19</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -223,7 +239,17 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#isquaternion">isQuaternion</a></p>
 						<ul>
-							<li>Defined in src/utils/math/three/math/Quaternion.d.ts:43</li>
+							<li>Defined in src/utils/math/three/math/Quaternion.d.ts:42</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="timestamp" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/position/Orientation.ts#L15">src/data/position/Orientation.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -234,7 +260,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#w">w</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L24">src/utils/math/Quaternion.ts:24</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L24">src/utils/math/Quaternion.ts:24</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -245,7 +271,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#x">x</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L15">src/utils/math/Quaternion.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L15">src/utils/math/Quaternion.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -256,7 +282,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#y">y</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L18">src/utils/math/Quaternion.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L18">src/utils/math/Quaternion.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -267,7 +293,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#z">z</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L21">src/utils/math/Quaternion.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L21">src/utils/math/Quaternion.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -278,20 +304,32 @@
 					<a name="_onchange" class="tsd-anchor"></a>
 					<h3>_on<wbr>Change</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">_on<wbr>Change<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Quaternion</span></li>
+						<li class="tsd-signature tsd-kind-icon">_on<wbr>Change<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Quaternion</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#_onchange">_onChange</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:146</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:138</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>callback: <span class="tsd-signature-type">Function</span></h5>
+									<h5>callback: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Quaternion</span></h4>
@@ -309,7 +347,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#angleto">angleTo</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:77</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:76</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -322,25 +360,20 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 					<a name="clone" class="tsd-anchor"></a>
 					<h3>clone</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 						<li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#clone">clone</a></p>
+								<p>Overrides <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#clone">clone</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:53</li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/position/Orientation.ts#L53">src/data/position/Orientation.ts:53</a></li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Clones this quaternion.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></h4>
 						</li>
 					</ul>
@@ -356,7 +389,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#conjugate">conjugate</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:87</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:86</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Quaternion</span></h4>
@@ -374,7 +407,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#copy">copy</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:58</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:57</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -403,7 +436,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#dot">dot</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:88</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:87</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -427,7 +460,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#equals">equals</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:114</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:113</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -444,63 +477,33 @@
 					<a name="fromarray" class="tsd-anchor"></a>
 					<h3>from<wbr>Array</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">from<wbr>Array<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span>, offset<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></li>
-						<li class="tsd-signature tsd-kind-icon">from<wbr>Array<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ArrayLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span>, offset<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></li>
+						<li class="tsd-signature tsd-kind-icon">from<wbr>Array<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ArrayLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span>, offset<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromarray">fromArray</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:121</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:120</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Sets this quaternion&#39;s x, y, z and w value from the provided array.</p>
+									<p>Sets this quaternion&#39;s x, y, z and w value from the provided array or array-like.</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>array: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>array: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ArrayLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>the source array.</p>
+										<p>the source array or array-like.</p>
 									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> offset: <span class="tsd-signature-type">number</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>(optional) offset into the array. Default is 0.</p>
-									</div>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromarray">fromArray</a></p>
-								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:128</li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets this quaternion&#39;s x, y, z and w value from the provided array-like.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>array: <span class="tsd-signature-type">ArrayLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the source array-like.</p>
-									</div>
-								</li>
-								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> offset: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>(optional) offset into the array-like. Default is 0.</p>
 									</div>
 								</li>
 							</ul>
@@ -519,7 +522,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#identity">identity</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:80</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:79</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Quaternion</span></h4>
@@ -537,7 +540,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#inverse">inverse</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:186</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:173</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -562,7 +565,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#invert">invert</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:85</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:84</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -585,7 +588,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#length">length</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:94</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:93</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -608,7 +611,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#lengthsq">lengthSq</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:89</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:88</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -626,7 +629,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#multiply">multiply</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:104</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:103</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -655,7 +658,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#multiplyquaternions">multiplyQuaternions</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:111</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:110</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -688,7 +691,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#multiplyvector3">multiplyVector3</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:181</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:168</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -719,7 +722,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#normalize">normalize</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:99</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:98</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -742,7 +745,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#premultiply">premultiply</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:105</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:104</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -766,7 +769,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#rotatetowards">rotateTowards</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:78</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:77</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -793,7 +796,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#set">set</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:48</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:47</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -831,7 +834,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#setfromaxisangle">setFromAxisAngle</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:70</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:69</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -865,7 +868,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#setfromeuler">setFromEuler</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:63</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:62</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -894,7 +897,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#setfromrotationmatrix">setFromRotationMatrix</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:75</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:74</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -923,7 +926,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#setfromunitvectors">setFromUnitVectors</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:76</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:75</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -950,7 +953,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#slerp">slerp</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:113</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:112</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -978,7 +981,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#toarray">toArray</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:136</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:128</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1008,7 +1011,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#toarray">toArray</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:144</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:136</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1047,7 +1050,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#toaxisangle">toAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L130">src/utils/math/Quaternion.ts:130</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L130">src/utils/math/Quaternion.ts:130</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1071,7 +1074,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#toeuler">toEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L121">src/utils/math/Quaternion.ts:121</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L121">src/utils/math/Quaternion.ts:121</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1104,7 +1107,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#torotationmatrix">toRotationMatrix</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L139">src/utils/math/Quaternion.ts:139</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L139">src/utils/math/Quaternion.ts:139</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1127,7 +1130,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/position/Orientation.ts#L39">src/data/position/Orientation.ts:39</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/position/Orientation.ts#L44">src/data/position/Orientation.ts:44</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1153,7 +1156,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromaxisangle">fromAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L80">src/utils/math/Quaternion.ts:80</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L80">src/utils/math/Quaternion.ts:80</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1194,7 +1197,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromaxisangle">fromAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L87">src/utils/math/Quaternion.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L87">src/utils/math/Quaternion.ts:87</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1209,7 +1212,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromaxisangle">fromAxisAngle</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L88">src/utils/math/Quaternion.ts:88</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L88">src/utils/math/Quaternion.ts:88</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1237,7 +1240,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L47">src/utils/math/Quaternion.ts:47</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L47">src/utils/math/Quaternion.ts:47</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1261,7 +1264,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L48">src/utils/math/Quaternion.ts:48</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L48">src/utils/math/Quaternion.ts:48</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1276,7 +1279,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L49">src/utils/math/Quaternion.ts:49</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L49">src/utils/math/Quaternion.ts:49</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1305,7 +1308,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L50">src/utils/math/Quaternion.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L50">src/utils/math/Quaternion.ts:50</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1337,7 +1340,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromeuler">fromEuler</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L57">src/utils/math/Quaternion.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L57">src/utils/math/Quaternion.ts:57</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1360,7 +1363,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/position/Orientation.ts#L22">src/data/position/Orientation.ts:22</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/position/Orientation.ts#L26">src/data/position/Orientation.ts:26</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1384,7 +1387,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromrotationmatrix">fromRotationMatrix</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L109">src/utils/math/Quaternion.ts:109</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L109">src/utils/math/Quaternion.ts:109</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1417,7 +1420,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#fromthreejs">fromThreeJS</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/utils/math/Quaternion.ts#L32">src/utils/math/Quaternion.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/utils/math/Quaternion.ts#L32">src/utils/math/Quaternion.ts:32</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1450,7 +1453,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#multiplyquaternionsflat">multiplyQuaternionsFlat</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:169</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:156</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1482,13 +1485,13 @@
 					<a name="serializer" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagStatic">Static</span> serializer</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon">serializer<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>accuracy<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>w<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>z<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></li>
+						<li class="tsd-signature tsd-kind-icon">serializer<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>accuracy<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>timestamp<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>w<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>z<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/position/Orientation.ts#L26">src/data/position/Orientation.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/position/Orientation.ts#L30">src/data/position/Orientation.ts:30</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1497,10 +1500,13 @@
 									<h5>value: <a href="orientation.html" class="tsd-signature-type" data-tsd-kind="Class">Orientation</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">{ </span>accuracy<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>w<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>z<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">{ </span>accuracy<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>timestamp<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>w<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>z<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></h4>
 							<ul class="tsd-parameters">
 								<li class="tsd-parameter">
 									<h5>accuracy<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li class="tsd-parameter">
+									<h5>timestamp<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
 								</li>
 								<li class="tsd-parameter">
 									<h5>w<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
@@ -1529,7 +1535,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#slerp-1">slerp</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:152</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:144</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1567,7 +1573,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="quaternion.html">Quaternion</a>.<a href="quaternion.html#slerpflat">slerpFlat</a></p>
 								<ul>
-									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:159</li>
+									<li>Defined in src/utils/math/three/math/Quaternion.d.ts:146</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1615,7 +1621,7 @@
 					<li class="current tsd-kind-class">
 						<a href="orientation.html" class="tsd-kind-icon">Orientation</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 								<a href="orientation.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -1626,6 +1632,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="orientation.html#isquaternion" class="tsd-kind-icon">is<wbr>Quaternion</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="orientation.html#timestamp" class="tsd-kind-icon">timestamp</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="orientation.html#w" class="tsd-kind-icon">w</a>
@@ -1645,7 +1654,7 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="orientation.html#angleto" class="tsd-kind-icon">angle<wbr>To</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 								<a href="orientation.html#clone" class="tsd-kind-icon">clone</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">

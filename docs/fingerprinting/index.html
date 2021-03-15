@@ -77,7 +77,7 @@
 					</a>
 				</p>
 				<h3 align="center">
-					<a href="https://github.com/OpenHPS/openhps-core">@openhps/core</a> &mdash; <a href="https://openhps.org/docs/csv">API</a>
+					<a href="https://github.com/OpenHPS/openhps-core">@openhps/core</a> &mdash; <a href="https://openhps.org/docs/fingerprinting">API</a>
 				</h3>
 				<br />
 				<p>This component provides nodes and services for positioning using fingerprinting. The following algorithms are supported:</p>
@@ -104,7 +104,7 @@
 				<pre><code class="language-typescript"><span style="color: #AF00DB">import</span><span style="color: #000000"> { </span><span style="color: #001080">ModelBuilder</span><span style="color: #000000">, </span><span style="color: #001080">GraphBuilder</span><span style="color: #000000"> } </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;@openhps/core&#039;</span><span style="color: #000000">;</span>
 <span style="color: #AF00DB">import</span><span style="color: #000000"> { </span>
 <span style="color: #000000">    </span><span style="color: #001080">FingerprintService</span><span style="color: #000000">,         </span><span style="color: #008000">// Pre processes fingerprints</span>
-<span style="color: #000000">    </span><span style="color: #001080">OfflineFingerprintingNode</span><span style="color: #000000">,  </span><span style="color: #008000">// Stores fingerprints</span>
+<span style="color: #000000">    </span><span style="color: #001080">FingerprintingNode</span><span style="color: #000000">,         </span><span style="color: #008000">// Stores fingerprints</span>
 <span style="color: #000000">    </span><span style="color: #001080">KNNFingerprintingNode</span><span style="color: #000000">,      </span><span style="color: #008000">// Reverse fingerprinting</span>
 <span style="color: #000000">    </span><span style="color: #001080">WeightFunction</span><span style="color: #000000">,</span>
 <span style="color: #000000">    </span><span style="color: #001080">DistanceFunction</span>
@@ -118,7 +118,7 @@
 <span style="color: #000000">    }))</span>
 <span style="color: #000000">    .</span><span style="color: #795E26">addShape</span><span style="color: #000000">(</span><span style="color: #001080">GraphBuilder</span><span style="color: #000000">.</span><span style="color: #795E26">create</span><span style="color: #000000">() </span><span style="color: #008000">// Offline stage</span>
 <span style="color: #000000">        .</span><span style="color: #795E26">from</span><span style="color: #000000">(</span><span style="color: #008000">/* ... */</span><span style="color: #000000">)</span>
-<span style="color: #000000">        .</span><span style="color: #795E26">via</span><span style="color: #000000">(</span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #795E26">OfflineFingerprintingNode</span><span style="color: #000000">())</span>
+<span style="color: #000000">        .</span><span style="color: #795E26">via</span><span style="color: #000000">(</span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #795E26">FingerprintingNode</span><span style="color: #000000">())</span>
 <span style="color: #000000">        .</span><span style="color: #795E26">to</span><span style="color: #000000">(</span><span style="color: #008000">/* ... */</span><span style="color: #000000">))</span>
 <span style="color: #000000">    .</span><span style="color: #795E26">addShape</span><span style="color: #000000">(</span><span style="color: #001080">GraphBuilder</span><span style="color: #000000">.</span><span style="color: #795E26">create</span><span style="color: #000000">() </span><span style="color: #008000">// Online stage</span>
 <span style="color: #000000">        .</span><span style="color: #795E26">from</span><span style="color: #000000">(</span><span style="color: #008000">/* ... */</span><span style="color: #000000">)</span>
@@ -164,6 +164,9 @@
 					<li class=" tsd-kind-class">
 						<a href="classes/fingerprint.html" class="tsd-kind-icon">Fingerprint</a>
 					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/fingerprintfeature.html" class="tsd-kind-icon">Fingerprint<wbr>Feature</a>
+					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/fingerprintservice.html" class="tsd-kind-icon">Fingerprint<wbr>Service</a>
 					</li>
@@ -171,13 +174,10 @@
 						<a href="classes/fingerprintingnode.html" class="tsd-kind-icon">Fingerprinting<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="classes/imufeatureextractionnode.html" class="tsd-kind-icon">IMUFeature<wbr>Extraction<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
 						<a href="classes/knnfingerprintingnode.html" class="tsd-kind-icon">KNNFingerprinting<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="classes/offlinefingerprintingnode.html" class="tsd-kind-icon">Offline<wbr>Fingerprinting<wbr>Node</a>
-					</li>
-					<li class=" tsd-kind-class tsd-has-type-parameter">
-						<a href="classes/onlinefingerprintingnode.html" class="tsd-kind-icon">Online<wbr>Fingerprinting<wbr>Node</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/weightfunction.html" class="tsd-kind-icon">Weight<wbr>Function</a>

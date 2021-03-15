@@ -96,7 +96,7 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><a href="rftransmitterobject.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="rftransmitterobject.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -104,6 +104,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="rftransmitterobject.html#createdtimestamp" class="tsd-kind-icon">created<wbr>Timestamp</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="rftransmitterobject.html#displayname" class="tsd-kind-icon">display<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="rftransmitterobject.html#frequency" class="tsd-kind-icon">frequency</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="rftransmitterobject.html#parentuid" class="tsd-kind-icon">parentUID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="rftransmitterobject.html#txpower" class="tsd-kind-icon">tx<wbr>Power</a></li>
 							</ul>
@@ -118,7 +119,7 @@
 								<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="rftransmitterobject.html#uid" class="tsd-kind-icon">uid</a></li>
 							</ul>
 						</section>
-						<section class="tsd-index-section ">
+						<section class="tsd-index-section tsd-is-inherited">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="rftransmitterobject.html#addrelativeposition" class="tsd-kind-icon">add<wbr>Relative<wbr>Position</a></li>
@@ -137,18 +138,18 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 						<li class="tsd-signature tsd-kind-icon">new RFTransmitter<wbr>Object<span class="tsd-signature-symbol">(</span>uid<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, calibratedRSSI<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, txPower<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="rftransmitterobject.html" class="tsd-signature-type" data-tsd-kind="Class">RFTransmitterObject</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#constructor">constructor</a></p>
+								<p>Overrides <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/rf/RFTransmitterObject.ts#L13">src/data/object/rf/RFTransmitterObject.ts:13</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/rf/RFTransmitterObject.ts#L18">src/data/object/rf/RFTransmitterObject.ts:18</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -178,7 +179,7 @@
 						<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#createdtimestamp">createdTimestamp</a></p>
 						<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#createdtimestamp">createdTimestamp</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L46">src/data/object/DataObject.ts:46</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L46">src/data/object/DataObject.ts:46</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -190,12 +191,27 @@
 						<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#displayname">displayName</a></p>
 						<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#displayname">displayName</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L39">src/data/object/DataObject.ts:39</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L39">src/data/object/DataObject.ts:39</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Object display name</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="frequency" class="tsd-anchor"></a>
+					<h3>frequency</h3>
+					<div class="tsd-signature tsd-kind-icon">frequency<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/rf/RFTransmitterObject.ts#L18">src/data/object/rf/RFTransmitterObject.ts:18</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>RF transmission frequency</p>
 						</div>
 					</div>
 				</section>
@@ -207,7 +223,7 @@
 						<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#parentuid">parentUID</a></p>
 						<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#parentuid">parentUID</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L44">src/data/object/DataObject.ts:44</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L44">src/data/object/DataObject.ts:44</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -222,7 +238,7 @@
 					<div class="tsd-signature tsd-kind-icon">tx<wbr>Power<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/rf/RFTransmitterObject.ts#L11">src/data/object/rf/RFTransmitterObject.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/rf/RFTransmitterObject.ts#L11">src/data/object/rf/RFTransmitterObject.ts:11</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -245,7 +261,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/rf/RFTransmitterObject.ts#L26">src/data/object/rf/RFTransmitterObject.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/rf/RFTransmitterObject.ts#L32">src/data/object/rf/RFTransmitterObject.ts:32</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -259,7 +275,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/rf/RFTransmitterObject.ts#L35">src/data/object/rf/RFTransmitterObject.ts:35</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/rf/RFTransmitterObject.ts#L41">src/data/object/rf/RFTransmitterObject.ts:41</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -292,17 +308,30 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/rf/RFTransmitterObject.ts#L43">src/data/object/rf/RFTransmitterObject.ts:43</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/rf/RFTransmitterObject.ts#L55">src/data/object/rf/RFTransmitterObject.ts:55</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set the enviornment factor of the beacon.
+									Nodes such as <a href="relativerssiprocessing.html">RelativeRSSIProcessing</a> can override this.</p>
+								</div>
+							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>environment factor</p>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/rf/RFTransmitterObject.ts#L47">src/data/object/rf/RFTransmitterObject.ts:47</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/rf/RFTransmitterObject.ts#L59">src/data/object/rf/RFTransmitterObject.ts:59</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set the enviornment factor of the beacon.
+									Nodes such as <a href="relativerssiprocessing.html">RelativeRSSIProcessing</a> can override this.</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -310,6 +339,7 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<p>environment factor</p>
 						</li>
 					</ul>
 				</section>
@@ -324,7 +354,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L87">src/data/object/DataObject.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L87">src/data/object/DataObject.ts:87</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -339,7 +369,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L95">src/data/object/DataObject.ts:95</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L95">src/data/object/DataObject.ts:95</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -370,7 +400,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L148">src/data/object/DataObject.ts:148</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L150">src/data/object/DataObject.ts:150</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -384,7 +414,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L160">src/data/object/DataObject.ts:160</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L162">src/data/object/DataObject.ts:162</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -414,7 +444,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L70">src/data/object/DataObject.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L70">src/data/object/DataObject.ts:70</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -428,7 +458,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L74">src/data/object/DataObject.ts:74</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L74">src/data/object/DataObject.ts:74</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -448,7 +478,7 @@
 					</ul>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group ">
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="addrelativeposition" class="tsd-anchor"></a>
@@ -462,7 +492,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#addrelativeposition">addRelativePosition</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#addrelativeposition">addRelativePosition</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L176">src/data/object/DataObject.ts:176</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L178">src/data/object/DataObject.ts:178</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -496,7 +526,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#bind">bind</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#bind">bind</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L236">src/data/object/DataObject.ts:236</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L238">src/data/object/DataObject.ts:238</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -521,7 +551,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#bind">bind</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#bind">bind</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L243">src/data/object/DataObject.ts:243</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L245">src/data/object/DataObject.ts:245</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -555,7 +585,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#clone">clone</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#clone">clone</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L264">src/data/object/DataObject.ts:264</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L266">src/data/object/DataObject.ts:266</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -580,7 +610,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#getposition">getPosition</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#getposition">getPosition</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L105">src/data/object/DataObject.ts:105</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L105">src/data/object/DataObject.ts:105</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -611,7 +641,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#getrelativeposition">getRelativePosition</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#getrelativeposition">getRelativePosition</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L213">src/data/object/DataObject.ts:213</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L215">src/data/object/DataObject.ts:215</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -651,7 +681,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#getrelativepositions">getRelativePositions</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#getrelativepositions">getRelativePositions</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L196">src/data/object/DataObject.ts:196</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L198">src/data/object/DataObject.ts:198</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -682,7 +712,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#hasrelativeposition">hasRelativePosition</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#hasrelativeposition">hasRelativePosition</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L226">src/data/object/DataObject.ts:226</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L228">src/data/object/DataObject.ts:228</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -707,7 +737,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#removerelativepositions">removeRelativePositions</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#removerelativepositions">removeRelativePositions</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L167">src/data/object/DataObject.ts:167</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L169">src/data/object/DataObject.ts:169</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -724,7 +754,7 @@
 					<a name="setposition" class="tsd-anchor"></a>
 					<h3>set<wbr>Position</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">set<wbr>Position<span class="tsd-signature-symbol">(</span>position<span class="tsd-signature-symbol">: </span><a href="../interfaces/absoluteposition.html" class="tsd-signature-type" data-tsd-kind="Interface">AbsolutePosition</a>, referenceSpace<span class="tsd-signature-symbol">?: </span><a href="referencespace.html" class="tsd-signature-type" data-tsd-kind="Class">ReferenceSpace</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Position<span class="tsd-signature-symbol">(</span>position<span class="tsd-signature-symbol">: </span><a href="../interfaces/absoluteposition.html" class="tsd-signature-type" data-tsd-kind="Interface">AbsolutePosition</a>, referenceSpace<span class="tsd-signature-symbol">?: </span><a href="referencespace.html" class="tsd-signature-type" data-tsd-kind="Class">ReferenceSpace</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="rftransmitterobject.html" class="tsd-signature-type" data-tsd-kind="Class">RFTransmitterObject</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -732,7 +762,7 @@
 								<p>Implementation of <a href="../interfaces/rfobject.html">RFObject</a>.<a href="../interfaces/rfobject.html#setposition">setPosition</a></p>
 								<p>Inherited from <a href="dataobject.html">DataObject</a>.<a href="dataobject.html#setposition">setPosition</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/cf35a01/src/data/object/DataObject.ts#L121">src/data/object/DataObject.ts:121</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/data/object/DataObject.ts#L122">src/data/object/DataObject.ts:122</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -752,7 +782,8 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> referenceSpace: <a href="referencespace.html" class="tsd-signature-type" data-tsd-kind="Class">ReferenceSpace</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="rftransmitterobject.html" class="tsd-signature-type" data-tsd-kind="Class">RFTransmitterObject</a></h4>
+							<p>Data object instance</p>
 						</li>
 					</ul>
 				</section>
@@ -773,7 +804,7 @@
 					<li class="current tsd-kind-class">
 						<a href="rftransmitterobject.html" class="tsd-kind-icon">RFTransmitter<wbr>Object</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 								<a href="rftransmitterobject.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -781,6 +812,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="rftransmitterobject.html#displayname" class="tsd-kind-icon">display<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="rftransmitterobject.html#frequency" class="tsd-kind-icon">frequency</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="rftransmitterobject.html#parentuid" class="tsd-kind-icon">parentUID</a>
