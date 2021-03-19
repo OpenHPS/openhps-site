@@ -97,6 +97,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="graphshapebuilder.html#graph" class="tsd-kind-icon">graph</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="graphshapebuilder.html#graphbuilder" class="tsd-kind-icon">graph<wbr>Builder</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="graphshapebuilder.html#previousnodes" class="tsd-kind-icon">previous<wbr>Nodes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected tsd-is-static"><a href="graphshapebuilder.html#shapes" class="tsd-kind-icon">shapes</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -117,6 +118,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="graphshapebuilder.html#via" class="tsd-kind-icon">via</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="graphshapebuilder.html#viagraph" class="tsd-kind-icon">via<wbr>Graph</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="graphshapebuilder.html#viagraphbuilder" class="tsd-kind-icon">via<wbr>Graph<wbr>Builder</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="graphshapebuilder.html#registershape" class="tsd-kind-icon">register<wbr>Shape</a></li>
 							</ul>
 						</section>
 					</div>
@@ -128,13 +130,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Graph<wbr>Shape<wbr>Builder&lt;Builder&gt;<span class="tsd-signature-symbol">(</span>graphBuilder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Builder</span>, graph<span class="tsd-signature-symbol">: </span><a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span>, nodes<span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Graph<wbr>Shape<wbr>Builder&lt;Builder&gt;<span class="tsd-signature-symbol">(</span>graphBuilder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Builder</span>, graph<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GraphShape</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span>, nodes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L150">src/graph/builders/GraphBuilder.ts:150</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L138">src/graph/builders/GraphBuilder.ts:138</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -149,10 +151,10 @@
 									<h5>graphBuilder: <span class="tsd-signature-type">Builder</span></h5>
 								</li>
 								<li>
-									<h5>graph: <a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>graph: <span class="tsd-signature-type">GraphShape</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>nodes: <a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>nodes: <span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -165,10 +167,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="graph" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> graph</h3>
-					<div class="tsd-signature tsd-kind-icon">graph<span class="tsd-signature-symbol">:</span> <a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">graph<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">GraphShape</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L150">src/graph/builders/GraphBuilder.ts:150</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L137">src/graph/builders/GraphBuilder.ts:137</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -178,17 +180,27 @@
 					<div class="tsd-signature tsd-kind-icon">graph<wbr>Builder<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Builder</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L148">src/graph/builders/GraphBuilder.ts:148</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L135">src/graph/builders/GraphBuilder.ts:135</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="previousnodes" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> previous<wbr>Nodes</h3>
-					<div class="tsd-signature tsd-kind-icon">previous<wbr>Nodes<span class="tsd-signature-symbol">:</span> <a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">previous<wbr>Nodes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L149">src/graph/builders/GraphBuilder.ts:149</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L136">src/graph/builders/GraphBuilder.ts:136</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected tsd-is-static">
+					<a name="shapes" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagStatic">Static</span> shapes</h3>
+					<div class="tsd-signature tsd-kind-icon">shapes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L138">src/graph/builders/GraphBuilder.ts:138</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -205,7 +217,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L308">src/graph/builders/GraphBuilder.ts:308</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L288">src/graph/builders/GraphBuilder.ts:288</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -228,7 +240,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L219">src/graph/builders/GraphBuilder.ts:219</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L204">src/graph/builders/GraphBuilder.ts:204</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -257,7 +269,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L279">src/graph/builders/GraphBuilder.ts:279</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L259">src/graph/builders/GraphBuilder.ts:259</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -280,7 +292,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L299">src/graph/builders/GraphBuilder.ts:299</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L279">src/graph/builders/GraphBuilder.ts:279</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -312,7 +324,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L289">src/graph/builders/GraphBuilder.ts:289</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L269">src/graph/builders/GraphBuilder.ts:269</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -344,7 +356,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L270">src/graph/builders/GraphBuilder.ts:270</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L250">src/graph/builders/GraphBuilder.ts:250</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -371,7 +383,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L233">src/graph/builders/GraphBuilder.ts:233</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L218">src/graph/builders/GraphBuilder.ts:218</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -415,7 +427,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L234">src/graph/builders/GraphBuilder.ts:234</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L219">src/graph/builders/GraphBuilder.ts:219</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -456,7 +468,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L245">src/graph/builders/GraphBuilder.ts:245</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L230">src/graph/builders/GraphBuilder.ts:230</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -509,7 +521,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L223">src/graph/builders/GraphBuilder.ts:223</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L208">src/graph/builders/GraphBuilder.ts:208</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -526,7 +538,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L257">src/graph/builders/GraphBuilder.ts:257</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L242">src/graph/builders/GraphBuilder.ts:242</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -588,7 +600,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L317">src/graph/builders/GraphBuilder.ts:317</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L297">src/graph/builders/GraphBuilder.ts:297</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -611,7 +623,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L321">src/graph/builders/GraphBuilder.ts:321</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L301">src/graph/builders/GraphBuilder.ts:301</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -628,19 +640,19 @@
 					<a name="via" class="tsd-anchor"></a>
 					<h3>via</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">via<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>nodes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">via<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>nodes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">GraphShape</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L180">src/graph/builders/GraphBuilder.ts:180</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L161">src/graph/builders/GraphBuilder.ts:161</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>nodes: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>nodes: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">GraphShape</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -651,19 +663,19 @@
 					<a name="viagraph" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> via<wbr>Graph</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">via<wbr>Graph<span class="tsd-signature-symbol">(</span>graph<span class="tsd-signature-symbol">: </span><a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">via<wbr>Graph<span class="tsd-signature-symbol">(</span>graph<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GraphShape</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L169">src/graph/builders/GraphBuilder.ts:169</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L150">src/graph/builders/GraphBuilder.ts:150</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>graph: <a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>graph: <span class="tsd-signature-type">GraphShape</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -680,7 +692,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/graph/builders/GraphBuilder.ts#L158">src/graph/builders/GraphBuilder.ts:158</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L146">src/graph/builders/GraphBuilder.ts:146</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -690,6 +702,50 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="graphshapebuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShapeBuilder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Builder</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="registershape" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> register<wbr>Shape</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Shape<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/builders/GraphBuilder.ts#L200">src/graph/builders/GraphBuilder.ts:200</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>fn: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -721,6 +777,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 								<a href="graphshapebuilder.html#previousnodes" class="tsd-kind-icon">previous<wbr>Nodes</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected tsd-is-static">
+								<a href="graphshapebuilder.html#shapes" class="tsd-kind-icon">shapes</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="graphshapebuilder.html#buffer" class="tsd-kind-icon">buffer</a>
@@ -766,6 +825,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
 								<a href="graphshapebuilder.html#viagraphbuilder" class="tsd-kind-icon">via<wbr>Graph<wbr>Builder</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="graphshapebuilder.html#registershape" class="tsd-kind-icon">register<wbr>Shape</a>
 							</li>
 						</ul>
 					</li>

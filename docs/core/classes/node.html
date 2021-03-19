@@ -103,14 +103,11 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="tsd-signature-type">AsyncEventEmitter</span>
+						<span class="tsd-signature-type">GraphNode</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span>
 						<ul class="tsd-hierarchy">
 							<li>
 								<span class="target">Node</span>
 								<ul class="tsd-hierarchy">
-									<li>
-										<a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a>
-									</li>
 									<li>
 										<a href="sinknode.html" class="tsd-signature-type" data-tsd-kind="Class">SinkNode</a>
 									</li>
@@ -119,9 +116,6 @@
 									</li>
 									<li>
 										<a href="balancenode.html" class="tsd-signature-type" data-tsd-kind="Class">BalanceNode</a>
-									</li>
-									<li>
-										<a href="memorybuffernode.html" class="tsd-signature-type" data-tsd-kind="Class">MemoryBufferNode</a>
 									</li>
 									<li>
 										<a href="timedpullnode.html" class="tsd-signature-type" data-tsd-kind="Class">TimedPullNode</a>
@@ -134,6 +128,9 @@
 									</li>
 									<li>
 										<a href="frameclonenode.html" class="tsd-signature-type" data-tsd-kind="Class">FrameCloneNode</a>
+									</li>
+									<li>
+										<a href="buffernode.html" class="tsd-signature-type" data-tsd-kind="Class">BufferNode</a>
 									</li>
 									<li>
 										<a href="processingnode.html" class="tsd-signature-type" data-tsd-kind="Class">ProcessingNode</a>
@@ -163,10 +160,10 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="node.html#graph" class="tsd-kind-icon">graph</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="node.html#name" class="tsd-kind-icon">name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="node.html#graph" class="tsd-kind-icon">graph</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="node.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="node.html#options" class="tsd-kind-icon">options</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="node.html#uid" class="tsd-kind-icon">uid</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="node.html#uid" class="tsd-kind-icon">uid</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="node.html#capturerejectionsymbol" class="tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="node.html#capturerejections" class="tsd-kind-icon">capture<wbr>Rejections</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="node.html#defaultmaxlisteners" class="tsd-kind-icon">default<wbr>Max<wbr>Listeners</a></li>
@@ -185,25 +182,25 @@
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#addlistener" class="tsd-kind-icon">add<wbr>Listener</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="node.html#emit" class="tsd-kind-icon">emit</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#emit" class="tsd-kind-icon">emit</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#emitasync" class="tsd-kind-icon">emit<wbr>Async</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#eventnames" class="tsd-kind-icon">event<wbr>Names</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#getmaxlisteners" class="tsd-kind-icon">get<wbr>Max<wbr>Listeners</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#getoptions" class="tsd-kind-icon">get<wbr>Options</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#isavailable" class="tsd-kind-icon">is<wbr>Available</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#isready" class="tsd-kind-icon">is<wbr>Ready</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#isavailable" class="tsd-kind-icon">is<wbr>Available</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#isready" class="tsd-kind-icon">is<wbr>Ready</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#listenercount" class="tsd-kind-icon">listener<wbr>Count</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#listeners" class="tsd-kind-icon">listeners</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#logger" class="tsd-kind-icon">logger</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#logger" class="tsd-kind-icon">logger</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#off" class="tsd-kind-icon">off</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="node.html#on" class="tsd-kind-icon">on</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="node.html#once" class="tsd-kind-icon">once</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#onceavailable" class="tsd-kind-icon">once<wbr>Available</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#oncecompleted" class="tsd-kind-icon">once<wbr>Completed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#on" class="tsd-kind-icon">on</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#once" class="tsd-kind-icon">once</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#onceavailable" class="tsd-kind-icon">once<wbr>Available</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#oncecompleted" class="tsd-kind-icon">once<wbr>Completed</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#prependlistener" class="tsd-kind-icon">prepend<wbr>Listener</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#prependoncelistener" class="tsd-kind-icon">prepend<wbr>Once<wbr>Listener</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#pull" class="tsd-kind-icon">pull</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="node.html#push" class="tsd-kind-icon">push</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#pull" class="tsd-kind-icon">pull</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="node.html#push" class="tsd-kind-icon">push</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#rawlisteners" class="tsd-kind-icon">raw<wbr>Listeners</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#removealllisteners" class="tsd-kind-icon">remove<wbr>All<wbr>Listeners</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="node.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a></li>
@@ -228,9 +225,9 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.constructor</p>
+								<p>Overrides GraphNode&lt;In, Out&gt;.constructor</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L56">src/Node.ts:56</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L29">src/Node.ts:29</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -255,13 +252,14 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="graph" class="tsd-anchor"></a>
 					<h3>graph</h3>
-					<div class="tsd-signature tsd-kind-icon">graph<span class="tsd-signature-symbol">:</span> <a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">graph<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
+						<p>Inherited from GraphNode.graph</p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L49">src/Node.ts:49</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L23">src/graph/_internal/GraphNode.ts:23</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -270,13 +268,14 @@
 						</div>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="name" class="tsd-anchor"></a>
 					<h3>name</h3>
 					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
+						<p>Inherited from GraphNode.name</p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L45">src/Node.ts:45</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L15">src/graph/_internal/GraphNode.ts:15</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -291,7 +290,7 @@
 					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/nodeoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">NodeOptions</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L53">src/Node.ts:53</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L29">src/Node.ts:29</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -300,13 +299,14 @@
 						</div>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="uid" class="tsd-anchor"></a>
 					<h3>uid</h3>
 					<div class="tsd-signature tsd-kind-icon">uid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
+						<p>Inherited from GraphNode.uid</p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L41">src/Node.ts:41</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L19">src/graph/_internal/GraphNode.ts:19</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -318,9 +318,9 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
 					<a name="capturerejectionsymbol" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> capture<wbr>Rejection<wbr>Symbol</h3>
-					<div class="tsd-signature tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="graphshape.html#capturerejectionsymbol" class="tsd-signature-type" data-tsd-kind="Property">captureRejectionSymbol</a></div>
+					<div class="tsd-signature tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="edge.html#capturerejectionsymbol" class="tsd-signature-type" data-tsd-kind="Property">captureRejectionSymbol</a></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AsyncEventEmitter.captureRejectionSymbol</p>
+						<p>Inherited from GraphNode.captureRejectionSymbol</p>
 						<ul>
 							<li>Defined in node_modules/@types/node/events.d.ts:35</li>
 						</ul>
@@ -331,7 +331,7 @@
 					<h3><span class="tsd-flag ts-flagStatic">Static</span> capture<wbr>Rejections</h3>
 					<div class="tsd-signature tsd-kind-icon">capture<wbr>Rejections<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AsyncEventEmitter.captureRejections</p>
+						<p>Inherited from GraphNode.captureRejections</p>
 						<ul>
 							<li>Defined in node_modules/@types/node/events.d.ts:41</li>
 						</ul>
@@ -347,7 +347,7 @@
 					<h3><span class="tsd-flag ts-flagStatic">Static</span> default<wbr>Max<wbr>Listeners</h3>
 					<div class="tsd-signature tsd-kind-icon">default<wbr>Max<wbr>Listeners<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AsyncEventEmitter.defaultMaxListeners</p>
+						<p>Inherited from GraphNode.defaultMaxListeners</p>
 						<ul>
 							<li>Defined in node_modules/@types/node/events.d.ts:42</li>
 						</ul>
@@ -356,9 +356,9 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
 					<a name="errormonitor" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> error<wbr>Monitor</h3>
-					<div class="tsd-signature tsd-kind-icon">error<wbr>Monitor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="graphshape.html#errormonitor" class="tsd-signature-type" data-tsd-kind="Property">errorMonitor</a></div>
+					<div class="tsd-signature tsd-kind-icon">error<wbr>Monitor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="edge.html#errormonitor" class="tsd-signature-type" data-tsd-kind="Property">errorMonitor</a></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AsyncEventEmitter.errorMonitor</p>
+						<p>Inherited from GraphNode.errorMonitor</p>
 						<ul>
 							<li>Defined in node_modules/@types/node/events.d.ts:34</li>
 						</ul>
@@ -387,7 +387,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L143">src/Node.ts:143</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L73">src/graph/_internal/GraphNode.ts:73</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -410,7 +410,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L102">src/Node.ts:102</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L69">src/Node.ts:69</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -433,7 +433,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L134">src/Node.ts:134</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L64">src/graph/_internal/GraphNode.ts:64</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -458,7 +458,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.addListener</p>
+								<p>Inherited from GraphNode.addListener</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:636</li>
 								</ul>
@@ -494,10 +494,10 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="emit" class="tsd-anchor"></a>
 					<h3>emit</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 						<li class="tsd-signature tsd-kind-icon">emit<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, e<span class="tsd-signature-symbol">: </span><a href="pushcompletedevent.html" class="tsd-signature-type" data-tsd-kind="Class">PushCompletedEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
@@ -508,9 +508,9 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.emit</p>
+								<p>Inherited from GraphNode.emit</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L147">src/Node.ts:147</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L77">src/graph/_internal/GraphNode.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -526,9 +526,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.emit</p>
+								<p>Inherited from GraphNode.emit</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L153">src/Node.ts:153</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L83">src/graph/_internal/GraphNode.ts:83</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -549,9 +549,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.emit</p>
+								<p>Inherited from GraphNode.emit</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L159">src/Node.ts:159</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L89">src/graph/_internal/GraphNode.ts:89</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -575,9 +575,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.emit</p>
+								<p>Inherited from GraphNode.emit</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L165">src/Node.ts:165</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L95">src/graph/_internal/GraphNode.ts:95</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -601,9 +601,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.emit</p>
+								<p>Inherited from GraphNode.emit</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L171">src/Node.ts:171</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L101">src/graph/_internal/GraphNode.ts:101</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -624,9 +624,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.emit</p>
+								<p>Inherited from GraphNode.emit</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L177">src/Node.ts:177</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L107">src/graph/_internal/GraphNode.ts:107</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -656,9 +656,9 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.emitAsync</p>
+								<p>Inherited from GraphNode.emitAsync</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -683,7 +683,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.eventNames</p>
+								<p>Inherited from GraphNode.eventNames</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:651</li>
 								</ul>
@@ -701,7 +701,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.getMaxListeners</p>
+								<p>Inherited from GraphNode.getMaxListeners</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:643</li>
 								</ul>
@@ -720,7 +720,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L93">src/Node.ts:93</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L60">src/Node.ts:60</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -733,17 +733,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="isavailable" class="tsd-anchor"></a>
 					<h3>is<wbr>Available</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">is<wbr>Available<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Inherited from GraphNode.isAvailable</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L115">src/Node.ts:115</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L55">src/graph/_internal/GraphNode.ts:55</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -756,17 +757,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="isready" class="tsd-anchor"></a>
 					<h3>is<wbr>Ready</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">is<wbr>Ready<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Inherited from GraphNode.isReady</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L106">src/Node.ts:106</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L46">src/graph/_internal/GraphNode.ts:46</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -782,7 +784,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.listenerCount</p>
+								<p>Inherited from GraphNode.listenerCount</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:647</li>
 								</ul>
@@ -806,7 +808,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.listeners</p>
+								<p>Inherited from GraphNode.listeners</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:644</li>
 								</ul>
@@ -821,17 +823,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="logger" class="tsd-anchor"></a>
 					<h3>logger</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">logger<span class="tsd-signature-symbol">(</span>level<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, log<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Inherited from GraphNode.logger</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L125">src/Node.ts:125</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L42">src/graph/_internal/GraphNode.ts:42</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -867,7 +870,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.off</p>
+								<p>Inherited from GraphNode.off</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:640</li>
 								</ul>
@@ -903,10 +906,10 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="on" class="tsd-anchor"></a>
 					<h3>on</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="pushcompletedevent.html" class="tsd-signature-type" data-tsd-kind="Class">PushCompletedEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
@@ -917,9 +920,9 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.on</p>
+								<p>Inherited from GraphNode.on</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L182">src/Node.ts:182</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L112">src/graph/_internal/GraphNode.ts:112</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -953,9 +956,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.on</p>
+								<p>Inherited from GraphNode.on</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L189">src/Node.ts:189</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L119">src/graph/_internal/GraphNode.ts:119</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -994,9 +997,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.on</p>
+								<p>Inherited from GraphNode.on</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L196">src/Node.ts:196</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L126">src/graph/_internal/GraphNode.ts:126</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1041,9 +1044,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.on</p>
+								<p>Inherited from GraphNode.on</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L203">src/Node.ts:203</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L133">src/graph/_internal/GraphNode.ts:133</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1088,9 +1091,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.on</p>
+								<p>Inherited from GraphNode.on</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L210">src/Node.ts:210</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L140">src/graph/_internal/GraphNode.ts:140</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1135,9 +1138,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.on</p>
+								<p>Inherited from GraphNode.on</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L217">src/Node.ts:217</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L147">src/graph/_internal/GraphNode.ts:147</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1185,23 +1188,23 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="once" class="tsd-anchor"></a>
 					<h3>once</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">symbol</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="pushcompletedevent.html" class="tsd-signature-type" data-tsd-kind="Class">PushCompletedEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;destroy&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;build&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;build&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;ready&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="node.html" class="tsd-signature-type" data-tsd-kind="Class">Node</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Out</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L222">src/Node.ts:222</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L152">src/graph/_internal/GraphNode.ts:152</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1235,9 +1238,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L229">src/Node.ts:229</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L159">src/graph/_internal/GraphNode.ts:159</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1276,9 +1279,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L236">src/Node.ts:236</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L166">src/graph/_internal/GraphNode.ts:166</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1323,9 +1326,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L243">src/Node.ts:243</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L173">src/graph/_internal/GraphNode.ts:173</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1364,9 +1367,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L250">src/Node.ts:250</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L180">src/graph/_internal/GraphNode.ts:180</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1383,21 +1386,21 @@
 									</div>
 								</li>
 								<li>
-									<h5>listener: <span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>listener: <span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Event callback</p>
 									</div>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-signature">
 											<ul class="tsd-signatures tsd-kind-type-literal">
-												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 											</ul>
 											<ul class="tsd-descriptions">
 												<li class="tsd-description">
 													<h4 class="tsd-parameters-title">Parameters</h4>
 													<ul class="tsd-parameters">
 														<li>
-															<h5>builder: <a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span></h5>
+															<h5>builder: <span class="tsd-signature-type">any</span></h5>
 														</li>
 													</ul>
 													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1411,9 +1414,9 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L257">src/Node.ts:257</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L187">src/graph/_internal/GraphNode.ts:187</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1452,17 +1455,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="onceavailable" class="tsd-anchor"></a>
 					<h3>once<wbr>Available</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">once<wbr>Available<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Inherited from GraphNode.onceAvailable</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L325">src/Node.ts:325</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L255">src/graph/_internal/GraphNode.ts:255</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1475,17 +1479,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="oncecompleted" class="tsd-anchor"></a>
 					<h3>once<wbr>Completed</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">once<wbr>Completed<span class="tsd-signature-symbol">(</span>frameUID<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="pushevent.html" class="tsd-signature-type" data-tsd-kind="Class">PushEvent</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Inherited from GraphNode.onceCompleted</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L343">src/Node.ts:343</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L273">src/graph/_internal/GraphNode.ts:273</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1516,7 +1521,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.prependListener</p>
+								<p>Inherited from GraphNode.prependListener</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:649</li>
 								</ul>
@@ -1561,7 +1566,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.prependOnceListener</p>
+								<p>Inherited from GraphNode.prependOnceListener</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:650</li>
 								</ul>
@@ -1597,17 +1602,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="pull" class="tsd-anchor"></a>
 					<h3>pull</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">pull<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/pulloptions.html" class="tsd-signature-type" data-tsd-kind="Interface">PullOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Inherited from GraphNode.pull</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L268">src/Node.ts:268</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L198">src/graph/_internal/GraphNode.ts:198</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1626,17 +1632,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="push" class="tsd-anchor"></a>
 					<h3>push</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 						<li class="tsd-signature tsd-kind-icon">push<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">In</span><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/pushoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">PushOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Inherited from GraphNode.push</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L296">src/Node.ts:296</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L226">src/graph/_internal/GraphNode.ts:226</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1670,7 +1677,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.rawListeners</p>
+								<p>Inherited from GraphNode.rawListeners</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:645</li>
 								</ul>
@@ -1694,7 +1701,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.removeAllListeners</p>
+								<p>Inherited from GraphNode.removeAllListeners</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:641</li>
 								</ul>
@@ -1718,7 +1725,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.removeListener</p>
+								<p>Inherited from GraphNode.removeListener</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:639</li>
 								</ul>
@@ -1763,7 +1770,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.setMaxListeners</p>
+								<p>Inherited from GraphNode.setMaxListeners</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/globals.d.ts:642</li>
 								</ul>
@@ -1788,7 +1795,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L78">src/Node.ts:78</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L45">src/Node.ts:45</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1819,7 +1826,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.listenerCount</p>
+								<p>Inherited from GraphNode.listenerCount</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/events.d.ts:23</li>
 								</ul>
@@ -1853,7 +1860,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.on</p>
+								<p>Inherited from GraphNode.on</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/events.d.ts:20</li>
 								</ul>
@@ -1881,7 +1888,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/events.d.ts:18</li>
 								</ul>
@@ -1899,7 +1906,7 @@
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from AsyncEventEmitter.once</p>
+								<p>Inherited from GraphNode.once</p>
 								<ul>
 									<li>Defined in node_modules/@types/node/events.d.ts:19</li>
 								</ul>
@@ -1937,16 +1944,16 @@
 							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite">
 								<a href="node.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#graph" class="tsd-kind-icon">graph</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#name" class="tsd-kind-icon">name</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 								<a href="node.html#options" class="tsd-kind-icon">options</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#uid" class="tsd-kind-icon">uid</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
@@ -1973,7 +1980,7 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="node.html#addlistener" class="tsd-kind-icon">add<wbr>Listener</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#emit" class="tsd-kind-icon">emit</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
@@ -1988,10 +1995,10 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="node.html#getoptions" class="tsd-kind-icon">get<wbr>Options</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#isavailable" class="tsd-kind-icon">is<wbr>Available</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#isready" class="tsd-kind-icon">is<wbr>Ready</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
@@ -2000,22 +2007,22 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="node.html#listeners" class="tsd-kind-icon">listeners</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#logger" class="tsd-kind-icon">logger</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="node.html#off" class="tsd-kind-icon">off</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#on" class="tsd-kind-icon">on</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#once" class="tsd-kind-icon">once</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#onceavailable" class="tsd-kind-icon">once<wbr>Available</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#oncecompleted" class="tsd-kind-icon">once<wbr>Completed</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
@@ -2024,10 +2031,10 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="node.html#prependoncelistener" class="tsd-kind-icon">prepend<wbr>Once<wbr>Listener</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#pull" class="tsd-kind-icon">pull</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="node.html#push" class="tsd-kind-icon">push</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">

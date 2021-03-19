@@ -99,10 +99,10 @@
 						<section class="tsd-index-section tsd-is-inherited">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="throttlenode.html#_dataframes" class="tsd-kind-icon">_data<wbr>Frames</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="throttlenode.html#graph" class="tsd-kind-icon">graph</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="throttlenode.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="throttlenode.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="throttlenode.html#service" class="tsd-kind-icon">service</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="throttlenode.html#uid" class="tsd-kind-icon">uid</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="throttlenode.html#capturerejectionsymbol" class="tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="throttlenode.html#capturerejections" class="tsd-kind-icon">capture<wbr>Rejections</a></li>
@@ -132,6 +132,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="throttlenode.html#listenercount" class="tsd-kind-icon">listener<wbr>Count</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="throttlenode.html#listeners" class="tsd-kind-icon">listeners</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="throttlenode.html#logger" class="tsd-kind-icon">logger</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="throttlenode.html#next" class="tsd-kind-icon">next</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="throttlenode.html#off" class="tsd-kind-icon">off</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="throttlenode.html#on" class="tsd-kind-icon">on</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="throttlenode.html#onpull" class="tsd-kind-icon">on<wbr>Pull</a></li>
@@ -149,6 +150,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="throttlenode.html#removelistener" class="tsd-kind-icon">remove<wbr>Listener</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="throttlenode.html#setmaxlisteners" class="tsd-kind-icon">set<wbr>Max<wbr>Listeners</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="throttlenode.html#setoptions" class="tsd-kind-icon">set<wbr>Options</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="throttlenode.html#shift" class="tsd-kind-icon">shift</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="throttlenode.html#listenercount-1" class="tsd-kind-icon">listener<wbr>Count</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="throttlenode.html#on-1" class="tsd-kind-icon">on</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external"><a href="throttlenode.html#once-1" class="tsd-kind-icon">once</a></li>
@@ -163,14 +165,14 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Throttle<wbr>Node&lt;InOut&gt;<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/nodeoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">NodeOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Throttle<wbr>Node&lt;InOut&gt;<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/bufferoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">BufferOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Overrides <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/nodes/shapes/ThrottleNode.ts#L8">src/nodes/shapes/ThrottleNode.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/ThrottleNode.ts#L9">src/nodes/shapes/ThrottleNode.ts:9</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -182,7 +184,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/nodeoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">NodeOptions</a></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/bufferoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">BufferOptions</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -192,25 +194,14 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
 				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-					<a name="_dataframes" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _data<wbr>Frames</h3>
-					<div class="tsd-signature tsd-kind-icon">_data<wbr>Frames<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">[]</span></div>
-					<aside class="tsd-sources">
-						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#_dataframes">_dataFrames</a></p>
-						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/nodes/shapes/MemoryBufferNode.ts#L9">src/nodes/shapes/MemoryBufferNode.ts:9</a></li>
-						</ul>
-					</aside>
-				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="graph" class="tsd-anchor"></a>
 					<h3>graph</h3>
-					<div class="tsd-signature tsd-kind-icon">graph<span class="tsd-signature-symbol">:</span> <a href="graphshape.html" class="tsd-signature-type" data-tsd-kind="Class">GraphShape</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">graph<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#graph">graph</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L49">src/Node.ts:49</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L23">src/graph/_internal/GraphNode.ts:23</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -226,7 +217,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#name">name</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L45">src/Node.ts:45</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L15">src/graph/_internal/GraphNode.ts:15</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -238,18 +229,24 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 					<a name="options" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> options</h3>
-					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/nodeoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">NodeOptions</a></div>
+					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/bufferoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">BufferOptions</a></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#options">options</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L53">src/Node.ts:53</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/BufferNode.ts#L11">src/nodes/shapes/BufferNode.ts:11</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Node options</p>
-						</div>
-					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="service" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> service</h3>
+					<div class="tsd-signature tsd-kind-icon">service<span class="tsd-signature-symbol">:</span> <a href="dataframeservice.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrameService</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#service">service</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/BufferNode.ts#L10">src/nodes/shapes/BufferNode.ts:10</a></li>
+						</ul>
+					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="uid" class="tsd-anchor"></a>
@@ -258,7 +255,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#uid">uid</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L41">src/Node.ts:41</a></li>
+							<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L19">src/graph/_internal/GraphNode.ts:19</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -270,7 +267,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
 					<a name="capturerejectionsymbol" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> capture<wbr>Rejection<wbr>Symbol</h3>
-					<div class="tsd-signature tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="graphshape.html#capturerejectionsymbol" class="tsd-signature-type" data-tsd-kind="Property">captureRejectionSymbol</a></div>
+					<div class="tsd-signature tsd-kind-icon">capture<wbr>Rejection<wbr>Symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="edge.html#capturerejectionsymbol" class="tsd-signature-type" data-tsd-kind="Property">captureRejectionSymbol</a></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#capturerejectionsymbol">captureRejectionSymbol</a></p>
 						<ul>
@@ -308,7 +305,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
 					<a name="errormonitor" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> error<wbr>Monitor</h3>
-					<div class="tsd-signature tsd-kind-icon">error<wbr>Monitor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="graphshape.html#errormonitor" class="tsd-signature-type" data-tsd-kind="Property">errorMonitor</a></div>
+					<div class="tsd-signature tsd-kind-icon">error<wbr>Monitor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="edge.html#errormonitor" class="tsd-signature-type" data-tsd-kind="Property">errorMonitor</a></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#errormonitor">errorMonitor</a></p>
 						<ul>
@@ -339,7 +336,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L143">src/Node.ts:143</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L73">src/graph/_internal/GraphNode.ts:73</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -362,7 +359,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L102">src/Node.ts:102</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L69">src/Node.ts:69</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -385,7 +382,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L134">src/Node.ts:134</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L64">src/graph/_internal/GraphNode.ts:64</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -462,7 +459,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L147">src/Node.ts:147</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L77">src/graph/_internal/GraphNode.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -480,7 +477,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L153">src/Node.ts:153</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L83">src/graph/_internal/GraphNode.ts:83</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -503,7 +500,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L159">src/Node.ts:159</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L89">src/graph/_internal/GraphNode.ts:89</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -529,7 +526,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L165">src/Node.ts:165</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L95">src/graph/_internal/GraphNode.ts:95</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -555,7 +552,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L171">src/Node.ts:171</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L101">src/graph/_internal/GraphNode.ts:101</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -578,7 +575,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#emit">emit</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L177">src/Node.ts:177</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L107">src/graph/_internal/GraphNode.ts:107</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -610,7 +607,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#emitasync">emitAsync</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/_internal/AsyncEventEmitter.ts#L8">src/_internal/AsyncEventEmitter.ts:8</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -673,7 +670,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#getoptions">getOptions</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L93">src/Node.ts:93</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L60">src/Node.ts:60</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -697,7 +694,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#isavailable">isAvailable</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L115">src/Node.ts:115</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L55">src/graph/_internal/GraphNode.ts:55</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -721,7 +718,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#isready">isReady</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L106">src/Node.ts:106</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L46">src/graph/_internal/GraphNode.ts:46</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -787,7 +784,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#logger">logger</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L125">src/Node.ts:125</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L42">src/graph/_internal/GraphNode.ts:42</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -811,6 +808,24 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="next" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> next</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">next<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#next">next</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/BufferNode.ts#L55">src/nodes/shapes/BufferNode.ts:55</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -875,7 +890,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L182">src/Node.ts:182</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L112">src/graph/_internal/GraphNode.ts:112</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -911,7 +926,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L189">src/Node.ts:189</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L119">src/graph/_internal/GraphNode.ts:119</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -952,7 +967,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L196">src/Node.ts:196</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L126">src/graph/_internal/GraphNode.ts:126</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -999,7 +1014,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L203">src/Node.ts:203</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L133">src/graph/_internal/GraphNode.ts:133</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1046,7 +1061,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L210">src/Node.ts:210</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L140">src/graph/_internal/GraphNode.ts:140</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1093,7 +1108,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#on">on</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L217">src/Node.ts:217</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L147">src/graph/_internal/GraphNode.ts:147</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1152,7 +1167,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#onpull">onPull</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/nodes/shapes/MemoryBufferNode.ts#L19">src/nodes/shapes/MemoryBufferNode.ts:19</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/BufferNode.ts#L31">src/nodes/shapes/BufferNode.ts:31</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1176,7 +1191,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#onpush">onPush</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/nodes/shapes/MemoryBufferNode.ts#L31">src/nodes/shapes/MemoryBufferNode.ts:31</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/BufferNode.ts#L44">src/nodes/shapes/BufferNode.ts:44</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1199,7 +1214,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/nodes/shapes/ThrottleNode.ts#L15">src/nodes/shapes/ThrottleNode.ts:15</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/ThrottleNode.ts#L16">src/nodes/shapes/ThrottleNode.ts:16</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1214,7 +1229,7 @@
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;available&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;completed&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="pushcompletedevent.html" class="tsd-signature-type" data-tsd-kind="Class">PushCompletedEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;destroy&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;build&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;build&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
 						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;ready&quot;</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
@@ -1222,7 +1237,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L222">src/Node.ts:222</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L152">src/graph/_internal/GraphNode.ts:152</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1258,7 +1273,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L229">src/Node.ts:229</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L159">src/graph/_internal/GraphNode.ts:159</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1299,7 +1314,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L236">src/Node.ts:236</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L166">src/graph/_internal/GraphNode.ts:166</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1346,7 +1361,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L243">src/Node.ts:243</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L173">src/graph/_internal/GraphNode.ts:173</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1387,7 +1402,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L250">src/Node.ts:250</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L180">src/graph/_internal/GraphNode.ts:180</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1404,21 +1419,21 @@
 									</div>
 								</li>
 								<li>
-									<h5>listener: <span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>listener: <span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Event callback</p>
 									</div>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-signature">
 											<ul class="tsd-signatures tsd-kind-type-literal">
-												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>builder<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 											</ul>
 											<ul class="tsd-descriptions">
 												<li class="tsd-description">
 													<h4 class="tsd-parameters-title">Parameters</h4>
 													<ul class="tsd-parameters">
 														<li>
-															<h5>builder: <a href="graphbuilder.html" class="tsd-signature-type" data-tsd-kind="Class">GraphBuilder</a><span class="tsd-signature-symbol">&lt;</span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">, </span><a href="dataframe.html" class="tsd-signature-type" data-tsd-kind="Class">DataFrame</a><span class="tsd-signature-symbol">&gt;</span></h5>
+															<h5>builder: <span class="tsd-signature-type">any</span></h5>
 														</li>
 													</ul>
 													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1434,7 +1449,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#once">once</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L257">src/Node.ts:257</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L187">src/graph/_internal/GraphNode.ts:187</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1484,7 +1499,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#onceavailable">onceAvailable</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L325">src/Node.ts:325</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L255">src/graph/_internal/GraphNode.ts:255</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1508,7 +1523,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#oncecompleted">onceCompleted</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L343">src/Node.ts:343</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L273">src/graph/_internal/GraphNode.ts:273</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1631,7 +1646,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#pull">pull</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L268">src/Node.ts:268</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L198">src/graph/_internal/GraphNode.ts:198</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1661,7 +1676,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#push">push</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L296">src/Node.ts:296</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/graph/_internal/GraphNode.ts#L226">src/graph/_internal/GraphNode.ts:226</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1814,7 +1829,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#setoptions">setOptions</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/30fac72/src/Node.ts#L78">src/Node.ts:78</a></li>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/Node.ts#L45">src/Node.ts:45</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1833,6 +1848,24 @@
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="throttlenode.html" class="tsd-signature-type" data-tsd-kind="Class">ThrottleNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>Node instance</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="shift" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> shift</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">shift<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="memorybuffernode.html">MemoryBufferNode</a>.<a href="memorybuffernode.html#shift">shift</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/OpenHPS/openhps-core/blob/bb53365/src/nodes/shapes/BufferNode.ts#L69">src/nodes/shapes/BufferNode.ts:69</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">InOut</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1963,9 +1996,6 @@
 							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite">
 								<a href="throttlenode.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-								<a href="throttlenode.html#_dataframes" class="tsd-kind-icon">_data<wbr>Frames</a>
-							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="throttlenode.html#graph" class="tsd-kind-icon">graph</a>
 							</li>
@@ -1974,6 +2004,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 								<a href="throttlenode.html#options" class="tsd-kind-icon">options</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="throttlenode.html#service" class="tsd-kind-icon">service</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="throttlenode.html#uid" class="tsd-kind-icon">uid</a>
@@ -2032,6 +2065,9 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="throttlenode.html#logger" class="tsd-kind-icon">logger</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="throttlenode.html#next" class="tsd-kind-icon">next</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="throttlenode.html#off" class="tsd-kind-icon">off</a>
 							</li>
@@ -2082,6 +2118,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="throttlenode.html#setoptions" class="tsd-kind-icon">set<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="throttlenode.html#shift" class="tsd-kind-icon">shift</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static tsd-is-external">
 								<a href="throttlenode.html#listenercount-1" class="tsd-kind-icon">listener<wbr>Count</a>
